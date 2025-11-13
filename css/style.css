@@ -1,7 +1,7 @@
 /* ================================================== */
 
 
-/* LogiXPress
+/* Biwako
 /* created by designesia
 
 @charset "utf-8";
@@ -242,7 +242,7 @@ header.autoshow.scrollOn {
 }
 
 header.autoshow.scrollOff {
-  opacity: ;
+  /* opacity: ; */
   top: -120px;
 }
 
@@ -303,7 +303,7 @@ header.smaller {
   -o-backdrop-filter: blur(10px);
   -moz-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
-  border: none;*/
+  border: none;
 }
 
 header.header-mobile.header-float .header-inner,
@@ -2277,7 +2277,7 @@ header.header-light .h-phone span{
 }
 
 .post-image{
-  overflow: hidden;x
+  overflow: hidden;
 }
 .post-image img {
   width: 100%;
@@ -4119,7 +4119,7 @@ ul.cols-2{
 
 .ul-style-4 li {
   margin: 2px 0 2px 0;
-  display: ;
+  /* display: ; */
   font-weight: 500;
 }
 
@@ -6796,7 +6796,8 @@ footer .widget{
   border-color: #555;
 }
 
-.widget_tags li a:hover border-color: #eceff3;
+.widget_tags li a:hover {
+  border-color: #eceff3;
 }
 
 footer .widget {
@@ -6991,7 +6992,7 @@ footer .tiny-border span {
 
 
 .de-step-s1 {
-  overflow: ;
+  /* overflow: ; */
   position: relative;
   padding: 0 25px;
   height: 100%;
@@ -7114,7 +7115,7 @@ footer .tiny-border span {
 
 
 .owl-carousel.no-hide .owl-stage-outer{
-  overflow: visible; !important;
+  overflow: visible !important;
 }
 
 .grayscale{

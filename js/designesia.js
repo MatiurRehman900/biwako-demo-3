@@ -1,5 +1,5 @@
  /* --------------------------------------------------
-  * © Copyright 2025 - LogiXPress by Designesia
+  * © Copyright 2025 - Biwako by Designesia
   * --------------------------------------------------*/
 (function($) {
 	'use strict';
