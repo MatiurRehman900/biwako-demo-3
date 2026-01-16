@@ -277,8 +277,11 @@
            nav:false,
            dots:false,
            responsive:{
+             1300:{
+                   items:5
+               },
                1000:{
-                   items:2
+                   items:3
                },
                600:{
                    items:2
