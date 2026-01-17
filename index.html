@@ -19,8 +19,40 @@
     <link href="css/swiper-custom-1.css" rel="stylesheet" type="text/css">
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <link href="css/coloring.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://icofont.com/icofont.min.css">
     <!-- color scheme -->
     <link id="colors" href="css/colors/scheme-01.css" rel="stylesheet" type="text/css">
+    <style>
+        /* Mobile responsive slider */
+        @media (max-width: 768px) {
+            .mh-800 {
+                min-height: 500px !important;
+            }
+            .swiper-inner {
+                background-size: cover !important;
+                background-position: center !important;
+            }
+            .sw-text-wrapper h1 {
+                font-size: 32px !important;
+                line-height: 1.2 !important;
+            }
+            .sw-text-wrapper p {
+                font-size: 14px !important;
+            }
+        }
+        @media (max-width: 576px) {
+            .mh-800 {
+                min-height: 400px !important;
+            }
+            .sw-text-wrapper h1 {
+                font-size: 24px !important;
+                line-height: 1.2 !important;
+            }
+            .sw-text-wrapper p {
+                font-size: 13px !important;
+            }
+        }
+    </style>
 
 </head>
 
@@ -71,21 +103,27 @@
                                 <!-- mainemenu begin -->
                                 <ul id="mainmenu">
                                     <li><a class="menu-item" href="index.html">Home</a></li>
-                                    <li><a class="menu-item" href="services.html">Services</a>
+                                    <li><a class="menu-item" href="services.html">Services</a></li>
+
+                                    <!-- <li><a class="menu-item" href="services.html">Services</a>
                                         <ul>
                                             <li><a href="services.html">Services 1</a></li>
                                             <li><a href="services-2.html">Services 2</a></li>
-                                            <li><a href="service-single.html">Service Single</a></li>
+                                            <li><a href="services.html">Service Single</a></li>
                                         </ul>
+                                    </li> -->
+                                    <li><a class="menu-item" href="#business-flow">Business Flow</a></li>
+                                    <li><a class="menu-item" href="company-information.html">Company Information</a>
                                     </li>
-                                    <li><a class="menu-item" href="#">Company</a>
+
+                                    <!-- <li><a class="menu-item" href="#">Company</a>
                                         <ul>
                                             <li><a href="about.html">About Us</a></li>
                                             <li><a href="team.html">Our Team</a></li>
                                             <li><a href="certifications.html">Certifications</a></li>
                                             <li><a href="careers.html">Careers</a></li>
                                         </ul>
-                                    </li>
+                                    </li> -->
                                     <li><a class="menu-item" href="contact.html">Contact</a></li>
                                 </ul>
                                 <!-- mainmenu end -->
@@ -110,27 +148,29 @@
         <!-- header close -->
         <!-- content begin -->
         <div class="no-bottom no-top" id="content">
-            <img src="images/slider/banner-1.jpeg" class="w-100 mt-5 d-lg-none mb-4" alt="">
+            <!-- <img src="images/slider/banner-1.jpeg" class="w-100 mt-5 d-lg-none mb-4" alt=""> -->
             <div id="top"></div>
-            <section
-                class="text-light no-top no-bottom relative rounded-1 overflow-hidden m-3 sm-mt-90 d-none d-lg-block">
+            <section class="text-light no-top no-bottom relative rounded-1 overflow-hidden m-3 sm-mt-90">
                 <div class="mh-800">
                     <div class="swiper">
                         <!-- Additional required wrapper -->
                         <div class="swiper-wrapper">
-
                             <!-- Slide 1 -->
                             <div class="swiper-slide">
-                                <div class="swiper-inner" data-bgimage="url(images/slider/banner-1.jpeg)">
+                                <div class="swiper-inner" data-bgimage="url(images/slider/car-transportaion.jpeg)">
                                     <div class="sw-caption">
                                         <div class="container">
                                             <div class="row gx-5 align-items-center justify-content-between">
                                                 <div class="col-lg-6">
                                                     <div class="sw-text-wrapper">
-                                                        <h1 class="animated text-uppercase anim-order-1">Used Car Parts Export & Container Shipping</h1>
+                                                        <h1 class="animated text-uppercase anim-order-1">Used Car Parts
+                                                            Export & Container Shipping</h1>
 
                                                         <div class="animated anim-order-2">
-                                                            <p>We dismantle vehicles, source quality used car parts, and ship them worldwide in containers. From engines to body parts, we provide reliable export services to ports globally with complete documentation and tracking.</p>
+                                                            <p>We dismantle vehicles, source quality used car parts, and
+                                                                ship them worldwide in containers. From engines to body
+                                                                parts, we provide reliable export services to ports
+                                                                globally with complete documentation and tracking.</p>
 
                                                             <div class="spacer-half"></div>
 
@@ -174,16 +214,188 @@
 
                             <!-- Slide 2 -->
                             <div class="swiper-slide">
+                                <div class="swiper-inner" data-bgimage="url(images/slider/dispental-banner.png)">
+                                    <div class="sw-caption">
+                                        <div class="container">
+                                            <div class="row gx-5 align-items-center justify-content-between">
+                                                <div class="col-lg-6">
+                                                    <div class="sw-text-wrapper">
+                                                        <h1 class="animated text-uppercase anim-order-1">Used Car Parts
+                                                            Export & Container Shipping</h1>
+
+                                                        <div class="animated anim-order-2">
+                                                            <p>We dismantle vehicles, source quality used car parts, and
+                                                                ship them worldwide in containers. From engines to body
+                                                                parts, we provide reliable export services to ports
+                                                                globally with complete documentation and tracking.</p>
+
+                                                            <div class="spacer-half"></div>
+
+                                                            <a class="btn-main fx-slide animated fadeInUp anim-order-3"
+                                                                href="contact.html"><span>Get Quote</span></a>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="abs w-100 bottom-0 z-2 pb-4 sm-hide">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-lg-12">
+                                                    <div class="d-flex justify-content-between">
+                                                        <div>
+                                                            <h6>Vehicle Dismantling</h6>
+                                                        </div>
+                                                        <div>
+                                                            <h6>Quality Parts Export</h6>
+                                                        </div>
+                                                        <div>
+                                                            <h6>Container Loading</h6>
+                                                        </div>
+                                                        <div>
+                                                            <h6>Worldwide Shipping</h6>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="sw-overlay op-4"></div>
+                                </div>
+                            </div>
+                            <!-- Slide 3 -->
+                            <div class="swiper-slide">
+                                <div class="swiper-inner" data-bgimage="url(images/slider/parts-banner.png)">
+                                    <div class="sw-caption">
+                                        <div class="container">
+                                            <div class="row gx-5 align-items-center justify-content-between">
+                                                <div class="col-lg-6">
+                                                    <div class="sw-text-wrapper">
+                                                        <h1 class="animated text-uppercase anim-order-1">Used Car Parts
+                                                            Export & Container Shipping</h1>
+
+                                                        <div class="animated anim-order-2">
+                                                            <p>We dismantle vehicles, source quality used car parts, and
+                                                                ship them worldwide in containers. From engines to body
+                                                                parts, we provide reliable export services to ports
+                                                                globally with complete documentation and tracking.</p>
+
+                                                            <div class="spacer-half"></div>
+
+                                                            <a class="btn-main fx-slide animated fadeInUp anim-order-3"
+                                                                href="contact.html"><span>Get Quote</span></a>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="abs w-100 bottom-0 z-2 pb-4 sm-hide">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-lg-12">
+                                                    <div class="d-flex justify-content-between">
+                                                        <div>
+                                                            <h6>Vehicle Dismantling</h6>
+                                                        </div>
+                                                        <div>
+                                                            <h6>Quality Parts Export</h6>
+                                                        </div>
+                                                        <div>
+                                                            <h6>Container Loading</h6>
+                                                        </div>
+                                                        <div>
+                                                            <h6>Worldwide Shipping</h6>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="sw-overlay op-4"></div>
+                                </div>
+                            </div>
+                            <!-- Slide 4 -->
+                            <div class="swiper-slide">
+                                <div class="swiper-inner" data-bgimage="url(images/slider/parts-loading.png)">
+                                    <div class="sw-caption">
+                                        <div class="container">
+                                            <div class="row gx-5 align-items-center justify-content-between">
+                                                <div class="col-lg-6">
+                                                    <div class="sw-text-wrapper">
+                                                        <h1 class="animated text-uppercase anim-order-1">Used Car Parts
+                                                            Export & Container Shipping</h1>
+
+                                                        <div class="animated anim-order-2">
+                                                            <p>We dismantle vehicles, source quality used car parts, and
+                                                                ship them worldwide in containers. From engines to body
+                                                                parts, we provide reliable export services to ports
+                                                                globally with complete documentation and tracking.</p>
+
+                                                            <div class="spacer-half"></div>
+
+                                                            <a class="btn-main fx-slide animated fadeInUp anim-order-3"
+                                                                href="contact.html"><span>Get Quote</span></a>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="abs w-100 bottom-0 z-2 pb-4 sm-hide">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-lg-12">
+                                                    <div class="d-flex justify-content-between">
+                                                        <div>
+                                                            <h6>Vehicle Dismantling</h6>
+                                                        </div>
+                                                        <div>
+                                                            <h6>Quality Parts Export</h6>
+                                                        </div>
+                                                        <div>
+                                                            <h6>Container Loading</h6>
+                                                        </div>
+                                                        <div>
+                                                            <h6>Worldwide Shipping</h6>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="sw-overlay op-4"></div>
+                                </div>
+                            </div>
+                            <!-- Slide 5 -->
+                            <div class="swiper-slide">
                                 <div class="swiper-inner" data-bgimage="url(images/slider/a2.webp)">
                                     <div class="sw-caption">
                                         <div class="container">
                                             <div class="row gx-5 align-items-center justify-content-between">
                                                 <div class="col-lg-6">
                                                     <div class="sw-text-wrapper">
-                                                        <h1 class="animated text-uppercase anim-order-1">Professional Vehicle Dismantling & Parts Export</h1>
+                                                        <h1 class="animated text-uppercase anim-order-1">Professional
+                                                            Vehicle Dismantling & Parts Export</h1>
 
                                                         <div class="animated anim-order-2">
-                                                            <p>We systematically dismantle vehicles to extract high-quality used parts. Each component is carefully inspected, catalogued, and prepared for export in secure containers to destinations worldwide.</p>
+                                                            <p>We systematically dismantle vehicles to extract
+                                                                high-quality used parts. Each component is carefully
+                                                                inspected, catalogued, and prepared for export in secure
+                                                                containers to destinations worldwide.</p>
 
                                                             <div class="spacer-half"></div>
 
@@ -223,7 +435,6 @@
                                     <div class="sw-overlay op-4"></div>
                                 </div>
                             </div>
-
                         </div>
 
                         <!-- If we need pagination -->
@@ -237,11 +448,10 @@
             </section>
 
 
-            <section class="mx-3 p-0">
+            <!-- <section class="mx-3 p-0">
                 <div class="container-fluid">
                     <div class="row g-3">
 
-                        <!-- First Item -->
                         <div class="col-lg-4 col-md-6">
                             <a href="about.html">
                                 <div class="hover rounded-1 relative overflow-hidden text-light wow zoomIn"
@@ -257,7 +467,6 @@
                             </a>
                         </div>
 
-                        <!-- Second Item -->
                         <div class="col-lg-4 col-md-6">
                             <a href="about.html">
                                 <div class="hover rounded-1 relative overflow-hidden text-light wow zoomIn"
@@ -280,7 +489,6 @@
                             </a>
                         </div>
 
-                        <!-- Third Item -->
                         <div class="col-lg-4 col-md-6">
                             <a href="about.html">
                                 <div class="hover rounded-1 relative overflow-hidden text-light wow zoomIn"
@@ -298,7 +506,7 @@
 
                     </div>
                 </div>
-            </section>
+            </section> -->
 
 
             <section>
@@ -312,34 +520,46 @@
 
                     <div class="row g-4 gx-5">
                         <div class="col-lg-3 col-md-6 wow fadeInRight" data-wow-delay="0s">
-                            <a href="service-single.html" class="d-block hover relative">
-                                <img src="images/icons-color/1.png" class="w-70px mb-3 hover-jello infinite" alt="">
+                            <a href="services.html" class="d-block hover relative">
+                                <div class="d-inline-block w-70px mb-3 hover-jello infinite">
+                                    <i class="icofont-tools-alt-2 fs-60 id-color "></i>
+                                </div>
                                 <h4>Vehicle Dismantling</h4>
-                                <p>Professional dismantling of vehicles to extract usable parts with careful handling and quality inspection.</p>
+                                <p>Professional dismantling of vehicles to extract usable parts with careful handling
+                                    and quality inspection.</p>
                             </a>
                         </div>
 
                         <div class="col-lg-3 col-md-6 wow fadeInRight" data-wow-delay=".2s">
-                            <a href="service-single.html" class="d-block hover relative">
-                                <img src="images/icons-color/2.png" class="w-70px mb-3 hover-jello infinite" alt="">
+                            <a href="services.html" class="d-block hover relative">
+                                <div class="d-inline-block w-70px mb-3 hover-jello infinite">
+                                    <i class="icofont-list fs-60 id-color"></i>
+                                </div>
                                 <h4>Parts Cataloging</h4>
-                                <p>Systematic cataloging and inventory management of used car parts with detailed specifications and condition reports.</p>
+                                <p>Systematic cataloging and inventory management of used car parts with detailed
+                                    specifications and condition reports.</p>
                             </a>
                         </div>
 
                         <div class="col-lg-3 col-md-6 wow fadeInRight" data-wow-delay=".4s">
-                            <a href="service-single.html" class="d-block hover relative">
-                                <img src="images/icons-color/3.png" class="w-70px mb-3 hover-jello infinite" alt="">
+                            <a href="services.html" class="d-block hover relative">
+                                <div class="d-inline-block w-70px  hover-jello infinite">
+                                    <i class="icofont-box fs-60 id-color" style="font-size: 75px;"></i>
+                                </div>
                                 <h4>Container Loading</h4>
-                                <p>Secure loading and packaging of car parts into containers with proper protection for international shipping.</p>
+                                <p>Secure loading and packaging of car parts into containers with proper protection for
+                                    international shipping.</p>
                             </a>
                         </div>
 
                         <div class="col-lg-3 col-md-6 wow fadeInRight" data-wow-delay=".6s">
-                            <a href="service-single.html" class="d-block hover relative">
-                                <img src="images/icons-color/4.png" class="w-70px mb-3 hover-jello infinite" alt="">
+                            <a href="services.html" class="d-block hover relative">
+                                <div class="d-inline-block w-70px mb-3 hover-jello infinite">
+                                    <i class="icofont-ship fs-60 id-color"></i>
+                                </div>
                                 <h4>Export Shipping</h4>
-                                <p>Complete export documentation and shipping services to ports worldwide with tracking and customs clearance.</p>
+                                <p>Complete export documentation and shipping services to ports worldwide with tracking
+                                    and customs clearance.</p>
                             </a>
                         </div>
 
@@ -348,7 +568,7 @@
                 </div>
             </section>
 
-            <section aria-label="section" class="p-0 mx-3 rounded-1 overflow-hidden">
+            <!-- <section aria-label="section" class="p-0 mx-3 rounded-1 overflow-hidden">
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-lg-12">
@@ -365,6 +585,140 @@
                         </div>
                     </div>
                 </div>
+            </section> -->
+
+            <!-- Bussniess flow -->
+            <section class="bg-light" id="business-flow">
+                <div class="container">
+                    <div class="row g-4 justify-content-center mb-5">
+                        <div class="col-lg-7 text-center">
+                            <div class="subtitle wow fadeInUp">How We Work</div>
+                            <h2 class="split" data-wow-delay=".2s">Our Business Flow</h2>
+                        </div>
+                    </div>
+
+                    <div class="row g-4">
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0s">
+                            <div class="bg-white rounded-1 overflow-hidden h-100 hover">
+                                <div class="relative overflow-hidden">
+                                    <img src="images/bussniess-flow/recieving-order.jpeg" class="w-100 hover-scale-1-1"
+                                        style="height: 200px; object-fit: cover;" alt="Receiving Orders">
+                                    <div class="absolute top-0 start-0 m-3 bg-color text-white fs-24 fw-bold circle"
+                                        style="width: 50px; height: 50px; display: flex; align-items: center; justify-content: center;">
+                                        01</div>
+                                </div>
+                                <div class="p-4">
+                                    <h4>Receiving Orders</h4>
+                                    <p class="mb-0">We get customer orders and check all details to make sure everything
+                                        is correct.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".1s">
+                            <div class="bg-white rounded-1 overflow-hidden h-100 hover">
+                                <div class="relative overflow-hidden">
+                                    <img src="images/bussniess-flow/payment.jpeg" class="w-100 hover-scale-1-1"
+                                        style="height: 200px; object-fit: cover;" alt="Payment Settlement">
+                                    <div class="absolute top-0 start-0 m-3 bg-color text-white fs-24 fw-bold circle"
+                                        style="width: 50px; height: 50px; display: flex; align-items: center; justify-content: center;">
+                                        02</div>
+                                </div>
+                                <div class="p-4">
+                                    <h4>Payment Settlement</h4>
+                                    <p class="mb-0">Secure payment processing and confirmation before we proceed with
+                                        order fulfillment.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
+                            <div class="bg-white rounded-1 overflow-hidden h-100 hover">
+                                <div class="relative overflow-hidden">
+                                    <img src="images/bussniess-flow/car-buying.jpg" class="w-100 hover-scale-1-1"
+                                        style="height: 200px; object-fit: cover;" alt="Arranging Cars & Parts">
+                                    <div class="absolute top-0 start-0 m-3 bg-color text-white fs-24 fw-bold circle"
+                                        style="width: 50px; height: 50px; display: flex; align-items: center; justify-content: center;">
+                                        03</div>
+                                </div>
+                                <div class="p-4">
+                                    <h4>Arranging Cars & Parts</h4>
+                                    <p class="mb-0">We collect the required cars and auto parts from auctions,
+                                        suppliers, or our stock.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+                            <div class="bg-white rounded-1 overflow-hidden h-100 hover">
+                                <div class="relative overflow-hidden">
+                                    <img src="images/bussniess-flow/cutting-dispentaling.jpeg"
+                                        class="w-100 hover-scale-1-1" style="height: 200px; object-fit: cover;"
+                                        alt="Dismantling & Cutting">
+                                    <div class="absolute top-0 start-0 m-3 bg-color text-white fs-24 fw-bold circle"
+                                        style="width: 50px; height: 50px; display: flex; align-items: center; justify-content: center;">
+                                        04</div>
+                                </div>
+                                <div class="p-4">
+                                    <h4>Dismantling & Cutting</h4>
+                                    <p class="mb-0">Our skilled team carefully dismantles cars and performs half-cut,
+                                        nose-cut, or full disassembly as needed.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".4s">
+                            <div class="bg-white rounded-1 overflow-hidden h-100 hover">
+                                <div class="relative overflow-hidden">
+                                    <img src="images/bussniess-flow/packing.jpeg" class="w-100 hover-scale-1-1"
+                                        style="height: 200px; object-fit: cover;" alt="Packing">
+                                    <div class="absolute top-0 start-0 m-3 bg-color text-white fs-24 fw-bold circle"
+                                        style="width: 50px; height: 50px; display: flex; align-items: center; justify-content: center;">
+                                        05</div>
+                                </div>
+                                <div class="p-4">
+                                    <h4>Packing</h4>
+                                    <p class="mb-0">All parts are packed safely to reach the customer in perfect
+                                        condition.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".5s">
+                            <div class="bg-white rounded-1 overflow-hidden h-100 hover">
+                                <div class="relative overflow-hidden">
+                                    <img src="images/bussniess-flow/container-loading.jpeg"
+                                        class="w-100 hover-scale-1-1" style="height: 200px; object-fit: cover;"
+                                        alt="Container Loading">
+                                    <div class="absolute top-0 start-0 m-3 bg-color text-white fs-24 fw-bold circle"
+                                        style="width: 50px; height: 50px; display: flex; align-items: center; justify-content: center;">
+                                        06</div>
+                                </div>
+                                <div class="p-4">
+                                    <h4>Container Loading</h4>
+                                    <p class="mb-0">We load cars and parts into containers using methods like full car
+                                        loading, CKD, rack & tack, or bulk parts, depending on the customer's needs.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".6s">
+                            <div class="bg-white rounded-1 overflow-hidden h-100 hover">
+                                <div class="relative overflow-hidden">
+                                    <img src="images/bussniess-flow/shipment.jpeg" class="w-100 hover-scale-1-1"
+                                        style="height: 200px; object-fit: cover;" alt="Shipment">
+                                    <div class="absolute top-0 start-0 m-3 bg-color text-white fs-24 fw-bold circle"
+                                        style="width: 50px; height: 50px; display: flex; align-items: center; justify-content: center;">
+                                        07</div>
+                                </div>
+                                <div class="p-4">
+                                    <h4>Shipment</h4>
+                                    <p class="mb-0">We handle shipping and all documentation, making sure the container
+                                        reaches the customer safely and on time.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
 
             <section class="mx-3 mt-3 p-0">
@@ -372,26 +726,26 @@
                     <div class="row g-3">
                         <div class="col-lg-6">
                             <div class="h-100 relative bg-color p-5 text-light rounded-1">
+                                <div class="subtitle wow fadeInUp" data-wow-delay=".2s">Our Experience</div>
+                                <h2 class="split" data-wow-delay=".4s">Trusted Expertise</h2>
 
-                                <div class="subtitle wow fadeInUp" data-wow-delay=".2s">Track Your Container</div>
-                                <h2 class="split" data-wow-delay=".4s">Container Tracking</h2>
-
-                                <div class="row align-items-center justify-content-end">
-                                    <div class="col-md-9 col-sm-8">
-                                        <div class="hover-underline">
-                                            <input class="form-underline mb-0 no-border fs-18" id="order_id"
-                                                name="order_id" placeholder="enter your order number here..."
-                                                type="text">
-                                        </div>
+                                <div class="row g-4 mt-3">
+                                    <div class="col-6">
+                                        <div class="fs-60 fw-bold mb-2">22+</div>
+                                        <div class="fs-18">Years Experience</div>
                                     </div>
-                                    <div class="col-md-3 col-sm-4">
-                                        <a class="btn-main bg-white text-dark fx-slide w-100"
-                                            href="track-result.html"><span>Track It</span></a>
+                                    <div class="col-6">
+                                        <div class="fs-60 fw-bold mb-2">5000+</div>
+                                        <div class="fs-18">Containers Shipped</div>
                                     </div>
-                                </div>
-
-                                <div class="abs col-lg-6 pos-sm-relative bottom-0 mb-5">
-                                    <p class="wow fadeInUp" data-wow-delay=".6s">Track your container shipment from loading to port delivery. We provide real-time updates on your used car parts export, ensuring complete visibility throughout the shipping process.</p>
+                                    <div class="col-6">
+                                        <div class="fs-60 fw-bold mb-2">50+</div>
+                                        <div class="fs-18">Countries Served</div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="fs-60 fw-bold mb-2">100%</div>
+                                        <div class="fs-18">Quality Assured</div>
+                                    </div>
                                 </div>
 
                                 <img src="images/misc/c2.webp" class="w-50 abs bottom-0 end-0 wow scaleIn"
@@ -450,7 +804,9 @@
                                 <i class="abs fs-40 p-4 bg-dark icon_check rounded-1 text-light"></i>
                                 <div class="ps-100 ms-4">
                                     <h4>Expert Vehicle Dismantling</h4>
-                                    <p>Our skilled technicians have years of experience in professional vehicle dismantling, ensuring maximum part recovery and quality preservation for export markets.</p>
+                                    <p>Our skilled technicians have years of experience in professional vehicle
+                                        dismantling, ensuring maximum part recovery and quality preservation for export
+                                        markets.</p>
                                 </div>
                             </div>
                         </div>
@@ -460,7 +816,9 @@
                                 <i class="abs fs-40 p-4 bg-dark icon_check rounded-1 text-light"></i>
                                 <div class="ps-100 ms-4">
                                     <h4>Quality Parts Guarantee</h4>
-                                    <p>Every used car part undergoes thorough inspection and testing before export. We guarantee the quality and functionality of all parts shipped in our containers.</p>
+                                    <p>Every used car part undergoes thorough inspection and testing before export. We
+                                        guarantee the quality and functionality of all parts shipped in our containers.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -470,7 +828,9 @@
                                 <i class="abs fs-40 p-4 bg-dark icon_check rounded-1 text-light"></i>
                                 <div class="ps-100 ms-4">
                                     <h4>Competitive Export Pricing</h4>
-                                    <p>We offer transparent and competitive pricing for used car parts export. No hidden fees, clear container loading costs, and competitive shipping rates to all destinations.</p>
+                                    <p>We offer transparent and competitive pricing for used car parts export. No hidden
+                                        fees, clear container loading costs, and competitive shipping rates to all
+                                        destinations.</p>
                                 </div>
                             </div>
                         </div>
@@ -480,7 +840,9 @@
                                 <i class="abs fs-40 p-4 bg-dark icon_check rounded-1 text-light"></i>
                                 <div class="ps-100 ms-4">
                                     <h4>Secure Container Loading</h4>
-                                    <p>Parts are carefully packed and secured in containers using professional techniques. We ensure safe transport and protection against damage during international shipping.</p>
+                                    <p>Parts are carefully packed and secured in containers using professional
+                                        techniques. We ensure safe transport and protection against damage during
+                                        international shipping.</p>
                                 </div>
                             </div>
                         </div>
@@ -490,7 +852,9 @@
                                 <i class="abs fs-40 p-4 bg-dark icon_check rounded-1 text-light"></i>
                                 <div class="ps-100 ms-4">
                                     <h4>Complete Export Service</h4>
-                                    <p>From vehicle dismantling to port delivery, we handle every aspect of used car parts export including documentation, customs clearance, and container shipping worldwide.</p>
+                                    <p>From vehicle dismantling to port delivery, we handle every aspect of used car
+                                        parts export including documentation, customs clearance, and container shipping
+                                        worldwide.</p>
                                 </div>
                             </div>
                         </div>
@@ -500,7 +864,9 @@
                                 <i class="abs fs-40 p-4 bg-dark icon_check rounded-1 text-light"></i>
                                 <div class="ps-100 ms-4">
                                     <h4>Global Export Network</h4>
-                                    <p>We ship to ports worldwide with established networks and reliable partners. Our global reach ensures your used car parts reach any destination efficiently and safely.</p>
+                                    <p>We ship to ports worldwide with established networks and reliable partners. Our
+                                        global reach ensures your used car parts reach any destination efficiently and
+                                        safely.</p>
                                 </div>
                             </div>
                         </div>
@@ -524,12 +890,12 @@
                                     <div class="item">
                                         <a href="about.html">
                                             <div class="hover rounded-1 relative overflow-hidden text-light">
-                                                <div class="abs p-40 bottom-0 z-3 w-50">
+                                                <!-- <div class="abs p-40 bottom-0 z-3 w-50">
                                                     <h3>Global Cargo Tracking</h3>
                                                     <p class="mb-0 hover-mh-60">Read More</p>
-                                                </div>
-                                                <img src="images/misc/ai-parts.png" class="w-100 hover-scale-1-2"
-                                                    alt="">
+                                                </div> -->
+                                                <img src="images/misc/container-3.jpg" class="w-100 hover-scale-1-2"
+                                                    style="object-fit: contain;" height="400px" alt="">
                                                 <div class="gradient-edge-bottom h-50 op-5"></div>
                                             </div>
                                         </a>
@@ -540,11 +906,12 @@
                                     <div class="item">
                                         <a href="about.html">
                                             <div class="hover rounded-1 relative overflow-hidden text-light">
-                                                <div class="abs p-40 bottom-0 z-3 w-50">
+                                                <!-- <div class="abs p-40 bottom-0 z-3 w-50">
                                                     <h3>Efficient Freight Solutions</h3>
                                                     <p class="mb-0 hover-mh-60">Read More</p>
-                                                </div>
-                                                <img src="images/misc/l2.webp" class="w-100 hover-scale-1-2" alt="">
+                                                </div> -->
+                                                <img src="images/misc/container-5.jpeg" class="w-100 hover-scale-1-2"
+                                                    style="object-fit: contain;" height="400px" alt="">
                                                 <div class="gradient-edge-bottom h-50 op-5"></div>
                                             </div>
                                         </a>
@@ -555,11 +922,39 @@
                                     <div class="item">
                                         <a href="about.html">
                                             <div class="hover rounded-1 relative overflow-hidden text-light">
-                                                <div class="abs p-40 bottom-0 z-3 w-50">
+                                                <!-- <div class="abs p-40 bottom-0 z-3 w-50">
                                                     <h3>Customs & Compliance</h3>
                                                     <p class="mb-0 hover-mh-60">Read More</p>
-                                                </div>
-                                                <img src="images/misc/l3.webp" class="w-100 hover-scale-1-2" alt="">
+                                                </div> -->
+                                                <img src="images/misc/container-4.jpg" class="w-100 hover-scale-1-2"
+                                                    style="object-fit: contain;" height="400px" alt="">
+                                                <div class="gradient-edge-bottom h-50 op-5"></div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- item begin -->
+                                    <div class="item">
+                                        <a href="about.html">
+                                            <div class="hover rounded-1 relative overflow-hidden text-light">
+                                                <!-- <div class="abs p-40 bottom-0 z-3 w-50">
+                                                    <h3>Customs & Compliance</h3>
+                                                    <p class="mb-0 hover-mh-60">Read More</p>
+                                                </div> -->
+                                                <img src="images/misc/container-1.jpg" class="w-100 hover-scale-1-2"
+                                                    style="object-fit: contain;" height="400px" alt="">
+                                                <div class="gradient-edge-bottom h-50 op-5"></div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="about.html">
+                                            <div class="hover rounded-1 relative overflow-hidden text-light">
+                                                <!-- <div class="abs p-40 bottom-0 z-3 w-50">
+                                                    <h3>Customs & Compliance</h3>
+                                                    <p class="mb-0 hover-mh-60">Read More</p>
+                                                </div> -->
+                                                <img src="images/misc/container-2.jpg" class="w-100 hover-scale-1-2"
+                                                    style="object-fit: contain;" height="400px" alt="">
                                                 <div class="gradient-edge-bottom h-50 op-5"></div>
                                             </div>
                                         </a>
@@ -581,60 +976,61 @@
                         <div class="col-lg-6">
                             <div class="subtitle id-color">FAQ</div>
                             <h2 class="split">
-                                Everything You Should Know About Cargo Logistics
+                                Everything You Should Know About Used Car Parts Export
                             </h2>
                         </div>
 
                         <div class="col-lg-6">
                             <div class="de-tab">
                                 <ul class="d-tab-nav mb-4">
-                                    <li class="active-tab">Shipping & Delivery</li>
-                                    <li>Tracking & Support</li>
-                                    <li>Billing & Documentation</li>
+                                    <li class="active-tab">Parts & Export</li>
+                                    <li>Orders & Shipping</li>
+                                    <li>Payment & Documentation</li>
                                 </ul>
                                 <ul class="d-tab-content">
                                     <li>
                                         <div class="accordion">
                                             <div class="accordion-section">
                                                 <div class="accordion-section-title" data-tab="#accordion-a1">
-                                                    What services do you offer?
+                                                    What types of car parts do you export?
                                                 </div>
                                                 <div class="accordion-section-content" id="accordion-a1">
-                                                    We provide air, sea, and land cargo shipping, customs clearance,
-                                                    freight forwarding, and last-mile delivery solutions.
+                                                    We export engines, transmissions, body parts, half-cuts, nose-cuts,
+                                                    and complete vehicle dismantling parts for various car makes and
+                                                    models.
                                                 </div>
 
                                                 <div class="accordion-section-title" data-tab="#accordion-a2">
-                                                    How do I get started to get service?
+                                                    Do you provide quality assurance for parts?
                                                 </div>
                                                 <div class="accordion-section-content" id="accordion-a2">
-                                                    Simply contact us or request a quote online. Our team will guide you
-                                                    through shipping options, documentation, and costs.
+                                                    Yes, all parts are thoroughly inspected and tested before export. We
+                                                    ensure quality standards are met for every shipment.
                                                 </div>
 
                                                 <div class="accordion-section-title" data-tab="#accordion-a3">
-                                                    Do you handle international shipments?
+                                                    Which countries do you export to?
                                                 </div>
                                                 <div class="accordion-section-content" id="accordion-a3">
-                                                    Yes, we handle both domestic and international cargo, including
-                                                    customs brokerage and global freight forwarding.
+                                                    We export to over 50 countries worldwide, including Africa, Asia,
+                                                    Middle East, and other international markets.
                                                 </div>
 
                                                 <div class="accordion-section-title" data-tab="#accordion-a4">
-                                                    What is included in the shipping process?
+                                                    Can I order specific car parts or models?
                                                 </div>
                                                 <div class="accordion-section-content" id="accordion-a4">
-                                                    Our shipping process covers pickup, cargo handling, customs
-                                                    clearance, real-time tracking, and final delivery.
+                                                    Absolutely. We source specific parts based on your requirements from
+                                                    auctions, suppliers, and our extensive inventory.
                                                 </div>
 
                                                 <div class="accordion-section-title" data-tab="#accordion-a5">
-                                                    How long does shipping usually take?
+                                                    What is half-cut and nose-cut?
                                                 </div>
                                                 <div class="accordion-section-content" id="accordion-a5">
-                                                    Transit times depend on the route and mode of transport. Domestic
-                                                    shipping may take 1–5 days, while international cargo can range from
-                                                    7–30 days.
+                                                    Half-cut is the front half of a vehicle including engine and
+                                                    transmission. Nose-cut is the front section with bumper, lights, and
+                                                    radiator assembly.
                                                 </div>
                                             </div>
                                         </div>
@@ -643,43 +1039,43 @@
                                         <div class="accordion">
                                             <div class="accordion-section">
                                                 <div class="accordion-section-title" data-tab="#accordion-b1">
-                                                    How can I track my shipment?
+                                                    How do I place an order?
                                                 </div>
                                                 <div class="accordion-section-content" id="accordion-b1">
-                                                    You can track your package using our online tracking system with
-                                                    your shipment ID or booking number.
+                                                    Contact us with your requirements. We'll provide a quote, confirm
+                                                    availability, and process your order after payment settlement.
                                                 </div>
 
                                                 <div class="accordion-section-title" data-tab="#accordion-b2">
-                                                    Do you provide real-time updates?
+                                                    How long does shipping take?
                                                 </div>
                                                 <div class="accordion-section-content" id="accordion-b2">
-                                                    Yes, we provide real-time cargo updates via email, SMS, or our
-                                                    mobile app so you know your shipment status at all times.
+                                                    Shipping time varies by destination. Typically 2-6 weeks depending
+                                                    on the port and customs clearance process.
                                                 </div>
 
                                                 <div class="accordion-section-title" data-tab="#accordion-b3">
-                                                    What if my package is delayed?
+                                                    Can I track my container?
                                                 </div>
                                                 <div class="accordion-section-content" id="accordion-b3">
-                                                    In case of delays, our customer support team will notify you
-                                                    immediately and provide the next available shipping option.
+                                                    Yes, we provide tracking information and regular updates on your
+                                                    container's location and estimated arrival time.
                                                 </div>
 
                                                 <div class="accordion-section-title" data-tab="#accordion-b4">
-                                                    Can I change the delivery address after booking?
+                                                    What container loading methods do you use?
                                                 </div>
                                                 <div class="accordion-section-content" id="accordion-b4">
-                                                    Yes, address changes are possible before dispatch. Once shipped,
-                                                    changes may incur extra costs depending on the route.
+                                                    We offer full car loading, CKD (Completely Knocked Down), rack &
+                                                    tack, and bulk parts loading based on your needs.
                                                 </div>
 
                                                 <div class="accordion-section-title" data-tab="#accordion-b5">
-                                                    Do you offer customer support 24/7?
+                                                    How are parts packed for shipping?
                                                 </div>
                                                 <div class="accordion-section-content" id="accordion-b5">
-                                                    Yes, our logistics support team is available 24/7 to assist with
-                                                    shipment inquiries, tracking, and urgent requests.
+                                                    All parts are professionally packed with protective materials to
+                                                    ensure they reach you in perfect condition.
                                                 </div>
                                             </div>
                                         </div>
@@ -691,77 +1087,81 @@
                                                     What payment methods do you accept?
                                                 </div>
                                                 <div class="accordion-section-content" id="accordion-c1">
-                                                    We accept bank transfers, credit cards, PayPal, and corporate
-                                                    billing accounts for approved clients.
+                                                    We accept bank transfers (T/T), LC (Letter of Credit), and other
+                                                    secure international payment methods.
                                                 </div>
 
                                                 <div class="accordion-section-title" data-tab="#accordion-c2">
-                                                    Do you provide shipping invoices?
+                                                    When do I need to make payment?
                                                 </div>
                                                 <div class="accordion-section-content" id="accordion-c2">
-                                                    Yes, every shipment includes a detailed invoice with freight
-                                                    charges, customs fees, and handling costs.
+                                                    Payment settlement is required after order confirmation and before
+                                                    we proceed with sourcing and container loading.
                                                 </div>
 
                                                 <div class="accordion-section-title" data-tab="#accordion-c3">
-                                                    How do customs duties and taxes work?
+                                                    Do you handle export documentation?
                                                 </div>
                                                 <div class="accordion-section-content" id="accordion-c3">
-                                                    Duties and taxes are calculated based on the destination country’s
-                                                    regulations. We assist with documentation and customs clearance.
+                                                    Yes, we handle all export documentation including Bill of Lading,
+                                                    commercial invoice, packing list, and customs clearance papers.
+                                                    Yes, we handle all export documentation including Bill of Lading,
+                                                    commercial invoice, packing list, and customs clearance papers.
                                                 </div>
 
                                                 <div class="accordion-section-title" data-tab="#accordion-c4">
-                                                    Can I request a cost breakdown?
+                                                    Are there additional customs fees?
                                                 </div>
-                                                <div class="accordion-section-content" id="accordion-c4">
-                                                    Absolutely. We provide a transparent cost breakdown for shipping,
-                                                    including freight, handling, and clearance charges.
-                                                </div>
-
-                                                <div class="accordion-section-title" data-tab="#accordion-c5">
-                                                    Do you offer credit terms for businesses?
-                                                </div>
-                                                <div class="accordion-section-content" id="accordion-c5">
-                                                    Yes, we provide flexible billing and credit terms for qualified
-                                                    business accounts upon approval.
-                                                </div>
+                                                Import duties and taxes at the destination port are the buyer's
+                                                responsibility and vary by country regulations.
+                                                Import duties and taxes at the destination port are the buyer's
+                                                responsibility and vary by country regulations.
+                                                including freight, handling, and clearance charges.
                                             </div>
+
+                                            Do you provide invoices and receipts?
+                                            Do you offer credit terms for businesses?
+                                            Yes, we provide detailed invoices, receipts, and all necessary documentation
+                                            for your records and customs clearance.
+                                            Yes, we provide detailed invoices, receipts, and all necessary documentation
+                                            for your records and customs clearance.
+                                            Yes, we provide flexible billing and credit terms for qualified
+                                            business accounts upon approval.
                                         </div>
-                                    </li>
-                                </ul>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </section>
-
-
-
-            <section class="p-0 overflow-hidden" aria-label="section">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <img src="images/misc/c1.webp" class="w-100 wow fadeInUp" alt="">
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section class="bg-color text-light pt-50 pb-50">
-                <div class="container">
-                    <div class="row g-4">
-                        <div class="col-md-9">
-                            <h3 class="mb-0 fs-32 split">Ready to Export Used Car Parts Worldwide?</h3>
-                        </div>
-                        <div class="col-lg-3 text-lg-end">
-                            <a class="btn-main fx-slide btn-line wow fadeInRight" data-wow-delay=".2s"
-                                href="contact.html"><span>Get Quote</span></a>
-                        </div>
+                        </li>
+                        </ul>
                     </div>
                 </div>
             </section>
         </div>
+
+
+
+        <section class="p-0 overflow-hidden" aria-label="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <img src="images/misc/c1.webp" class="w-100 wow fadeInUp" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-color text-light pt-50 pb-50">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-md-9">
+                        <h3 class="mb-0 fs-32 split">Ready to Export Used Car Parts Worldwide?</h3>
+                    </div>
+                    <div class="col-lg-3 text-lg-end">
+                        <a class="btn-main fx-slide btn-line wow fadeInRight" data-wow-delay=".2s"
+                            href="contact.html"><span>Get Quote</span></a>
+                    </div>
+                </div>
+            </div>
+        </section>
         <!-- content close -->
 
         <!-- footer begin -->
@@ -779,12 +1179,12 @@
                                 <div class="widget">
                                     <h5>Services</h5>
                                     <ul>
-                                        <li><a href="service-single.html">Trucking</a></li>
-                                        <li><a href="service-single.html">Air Freight</a></li>
-                                        <li><a href="service-single.html">Ship Freight</a></li>
-                                        <li><a href="service-single.html">Rail Freight</a></li>
-                                        <li><a href="service-single.html">Warehousing</a></li>
-                                        <li><a href="service-single.html">Customs Brokerage</a></li>
+                                        <li><a href="services.html">Vehicle Dismantling</a></li>
+                                        <li><a href="services.html">Parts Sourcing</a></li>
+                                        <li><a href="services.html">Quality Inspection</a></li>
+                                        <li><a href="services.html">Container Loading</a></li>
+                                        <li><a href="services.html">Export Shipping</a></li>
+                                        <li><a href="services.html">Documentation</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -794,10 +1194,9 @@
                                     <h5>Company</h5>
                                     <ul>
                                         <li><a href="index.html">Home</a></li>
-                                        <li><a href="about.html">About Us</a></li>
-                                        <li><a href="team.html">Our Team</a></li>
-                                        <li><a href="careers.html">Careers</a></li>
-                                        <li><a href="blog.html">Blog</a></li>
+                                        <li><a href="company-information.html">Company Information</a></li>
+                                        <li><a href="index.html#business-flow">Business Flow</a></li>
+                                        <li><a href="services.html">Services</a></li>
                                         <li><a href="contact.html">Contact</a></li>
                                     </ul>
                                 </div>
@@ -879,14 +1278,12 @@
 
             <h5>Our Services</h5>
             <ul class="ul-check">
-                <li>Trucking</li>
-                <li>Air Fright</li>
-                <li>Ship Freight</li>
-                <li>Rail Freight</li>
-                <li>Warehousing</li>
-                <li>Customs Brokerage</li>
-                <li>Last-Mile Delivery</li>
-                <li>Project Cargo</li>
+                <li>Vehicle Dismantling</li>
+                <li>Parts Sourcing</li>
+                <li>Quality Inspection</li>
+                <li>Container Loading</li>
+                <li>Export Shipping</li>
+                <li>Documentation</li>
             </ul>
 
             <div class="spacer-30-line"></div>
@@ -901,9 +1298,7 @@
             <div class="spacer-30-line"></div>
 
             <h5>About Us</h5>
-            <p>We are a trusted logistics and cargo solutions provider committed to delivering your goods safely,
-                efficiently, and on time. With years of experience in freight forwarding, warehousing, and international
-                shipping.</p>
+            <p>We are a trusted used car parts exporter from Japan. With 22+ years of experience, we dismantle vehicles, source quality parts, and ship containers worldwide with complete documentation and tracking.</p>
 
             <div class="social-icons">
                 <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
@@ -923,6 +1318,19 @@
     <script src="js/swiper.js"></script>
     <script src="js/custom-swiper-1.js"></script>
     <script src="js/custom-marquee.js"></script>
+    <script>
+        // Handle anchor scroll on page load
+        window.addEventListener('load', function() {
+            if (window.location.hash) {
+                setTimeout(function() {
+                    const element = document.querySelector(window.location.hash);
+                    if (element) {
+                        element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    }
+                }, 100);
+            }
+        });
+    </script>
 
 
 
