@@ -89,7 +89,7 @@ Table of content:
   --h6-margin-bottom: 10px;
   /* mainmenu */
   --mainmenu-font: var(--body-font);
-  --mainmenu-font-size: 14px;
+  --mainmenu-font-size: 16px;
   --mainmenu-font-weight: bold;
   --mainmenu-letter-spacing: 0;
   --mainmenu-text-transform: uppercase;
@@ -6162,6 +6162,36 @@ header.header-mobile #mainmenu>li>span {
 .widthInFade {
   -webkit-animation-name: widthInFade;
   animation-name: widthInFade;
+}
+
+/* Slide from left animation */
+@keyframes slideInFromLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-100vw);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Keep element hidden off the page-left until WOW.js adds the `animated` class */
+.wow.slideInFromLeft,
+.slideInFromLeft {
+  opacity: 0;
+  transform: translateX(-100vw);
+  will-change: transform, opacity;
+}
+
+/* Add `in-view` or `animated` to trigger the animation */
+.slideInFromLeft.in-view,
+.wow.animated.slideInFromLeft,
+.slideInFromLeft.animated {
+  -webkit-animation-name: slideInFromLeft;
+  animation-name: slideInFromLeft;
+  animation-duration: 0.8s;
+  animation-fill-mode: both;
 }
 
 /* ================================================== */
