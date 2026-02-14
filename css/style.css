@@ -13516,3 +13516,16 @@ img {
 .gallery-img:hover {
   transform: scale(1.05);
 }
+
+.service-hover:hover{
+  background-color: var(--bg-grey);
+  border-radius: 10px;
+  padding: 15px;
+  cursor: pointer;
+}
+.service-hover:hover .text{
+  color: #000;
+}
+.service-hover:hover h4{
+  color: var(--primary-color);
+}
