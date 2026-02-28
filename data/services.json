@@ -1,0 +1,42 @@
+[
+  {
+    "id": "russia",
+    "title": "Russia",
+    "short": "Vehicle export and parts for the Russian market.",
+    "description": "Complete vehicle export via Roll-on/Roll-off (RoRo). Light-duty cutting, frame cutting, and car design services for European brands. Spare parts supplied on pallets.",
+    "bullets": ["RoRo vehicle export","Light-duty cutting","Frame cutting","European car designer","Spare parts on pallets"],
+    "image": ""
+  },
+  {
+    "id": "uae",
+    "title": "UAE (Dubai & Sharjah)",
+    "short": "Used auto-parts in bulk by container to UAE.",
+    "description": "We export bulk used auto-parts in containers to Dubai and Sharjah with optimized container loading and secure packaging.",
+    "bullets": ["Bulk containers","Secure packaging"],
+    "image": ""
+  },
+  {
+    "id": "pakistan",
+    "title": "Pakistan",
+    "short": "Bulk used auto-parts and complete vehicle export.",
+    "description": "Bulk used auto-parts by container and complete vehicle export via RoRo or containerized shipment to Pakistan. We prepare and document shipments per customer requirements.",
+    "bullets": ["Bulk by container","RoRo or containerized vehicles"],
+    "image": ""
+  },
+  {
+    "id": "philippines",
+    "title": "Philippines",
+    "short": "Vehicles and parts for the Philippine market.",
+    "description": "Common vehicles: Japanese trucks, kei-trucks and vans. Vehicles dismantled via CKD and Rack & Stack; parts numbered for reassembly on arrival.",
+    "bullets": ["Japanese trucks & vans","CKD","Rack & Stack","Numbered parts"],
+    "image": ""
+  },
+  {
+    "id": "global",
+    "title": "Africa, Latin America & Europe",
+    "short": "Exports to multiple global regions.",
+    "description": "Complete vehicle export via RoRo or containerized shipment. CKD and Rack & Stack (dismantled and reassembled on arrival) and bulk used auto-parts by container.",
+    "bullets": ["RoRo or containerized shipment","CKD and Rack & Stack","Bulk used auto-parts"],
+    "image": ""
+  }
+]
