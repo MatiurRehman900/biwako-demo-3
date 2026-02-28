@@ -13554,8 +13554,11 @@ img {
   cursor: pointer;
 }
 .service-hover:hover .text{
-  color: #000;
+  color: blue;
 }
 .service-hover:hover h4{
   color: var(--primary-color);
+}
+.italic{
+  font-style: italic;
 }
