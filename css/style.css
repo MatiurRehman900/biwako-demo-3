@@ -10851,6 +10851,10 @@ border-radius:30px 0 0 30px;
 .owl-custom-nav a{
   text-decoration:none;
 }
+.owl-custom-nav .item a .hover{
+  background-color: #78707080;
+
+}
 
 
 .de-custom-nav .d-prev:before, .de-custom-nav .d-next:before{
