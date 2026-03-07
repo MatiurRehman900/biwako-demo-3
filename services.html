@@ -121,7 +121,7 @@
                     <div class="row g-4 justify-content-center mb-4">
                         <div class="col-lg-8 text-center">
                             <div class="subtitle wow fadeInUp">What We Offer</div>
-                            <h2 class="split" data-wow-delay=".2s">Complete Used Car Parts Export Solutions</h2>
+                            <!-- <h2 class="split" data-wow-delay=".2s">Complete Used Car Parts Export Solutions</h2> -->
                         </div>
                     </div>
 
@@ -131,7 +131,7 @@
                 </div>
             </section>
 
-            <section>
+            <!-- <section>
                 <div class="container">
                     <div class="row g-5 align-items-center">
                         <div class="col-lg-6 wow fadeInLeft">
@@ -186,7 +186,7 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> -->
 
             <section class="bg-color text-light pt-50 pb-50">
                 <div class="container">
@@ -365,10 +365,10 @@
                     const requestedId = params.get('id');
                     if (requestedId) {
                         const s = services.find(x => x.id === requestedId);
-                        if (!s) {
-                            container.innerHTML = '<div class="col-12">Service not found. <a href="index.html#services">Back to services</a></div>';
-                            return;
-                        }
+                        // if (!s) {
+                        //     container.innerHTML = '<div class="col-12">Service not found. <a href="index.html#services">Back to services</a></div>';
+                        //     return;
+                        // }
                         let html = `<h2 class="wow fadeInUp" data-wow-delay="0.2s">${s.title}</h2>`;
                         (s.bullets || []).forEach((bullet, index) => {
                             const imgs = Array.isArray(bullet.img) ? bullet.img : [bullet.img || ''];
@@ -408,7 +408,7 @@
                                 </div>
                             `;
                         });
-                        html += `<div class="text-center mt-5 wow fadeInUp" data-wow-delay="2s"><a class="btn-main fx-slide" href="index.html#services"><span>Back to Services</span></a></div>`;
+                        // html += `<div class="text-center mt-5 wow fadeInUp" data-wow-delay="2s"><a class="btn-main fx-slide" href="index.html#services"><span>Back to Services</span></a></div>`;
                         container.innerHTML = html;
                         return;
                     }

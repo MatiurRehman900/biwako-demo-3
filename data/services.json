@@ -33,9 +33,14 @@
           "images/services/russia/Disassembled complete cars loading in Container-6.jpeg",
           "images/services/russia/Disassembled complete cars loading in Container-7.jpeg"
         ]
-      },{
+      },
+      {
         "desc":"Tire container with or without alloy wheel - Bulk tire export in containers",
         "img":["images/services/russia/Tire container-1.jpeg","images/services/russia/Tire container-2.jpeg"]
+      },
+      {
+        "desc":"Alloy Rim container - Bulk alloy rim export in containers",
+        "img":["images/services/russia/alloy.png"]
       }
     ]
   },
@@ -43,32 +48,82 @@
     "id": "uae",
     "title": "UAE (Dubai & Sharjah)",
     "short": "Used auto-parts in bulk by container to UAE.",
-    "description": "We export bulk used auto-parts in containers to Dubai and Sharjah with optimized container loading and secure packaging.",
-    "bullets": ["Bulk containers","Secure packaging"],
-    "image": ""
+    "description": "We export bulk used auto-parts in containers to Dubai and Sharjah with optimized container loading and secure packaging. Services include tire container shipments and specialized container packing for auto parts.",
+    "bullets": [
+      {
+        "desc": "Used Auto-Parts in Bulk by Container - Optimized loading and secure packaging",
+        "img": [
+          "images/services/UAE/Used Auto-Parts in Bulk by Container-1.jpeg",
+          "images/services/UAE/Used Auto-Parts in Bulk by Container-2.jpeg",
+          "images/services/UAE/Used Auto-Parts in Bulk by Container-3.jpeg",
+          "images/services/UAE/Used Auto-Parts in Bulk by Container-4.jpeg"
+        ]
+      },
+      {
+        "desc": "Tire container with or without alloy wheel - Bulk tire export in containers",
+        "img": [
+          "images/services/UAE/Tire container-1.jpeg",
+          "images/services/UAE/Tire container-2.jpeg"
+        ]
+      }
+    ],
+    "image": "images/services/UAE/Used Auto-Parts in Bulk by Container-1.jpeg"
   },
   {
     "id": "pakistan",
     "title": "Pakistan",
     "short": "Bulk used auto-parts and complete vehicle export.",
     "description": "Bulk used auto-parts by container and complete vehicle export via RoRo or containerized shipment to Pakistan. We prepare and document shipments per customer requirements.",
-    "bullets": ["Bulk by container","RoRo or containerized vehicles"],
-    "image": ""
+    "bullets": [
+      {
+        "desc": "Bulk Used Auto-Parts by Container - Secure packaging for parts",
+        "img": [
+          "images/services/Pakistan/Bulk Used Auto-Parts by Container-1.jpeg",
+          "images/services/Pakistan/Bulk Used Auto-Parts by Container-2.jpeg"
+        ]
+      },
+      {
+        "desc": "Complete vehicle export via RoRo or containerized shipment - Vehicles shipped intact or in containers",
+        "img": "images/services/Pakistan/Bulk Used Auto-Parts by Container-3.jpeg"
+      }
+    ],
+    "image": "images/services/Pakistan/Bulk Used Auto-Parts by Container-1.jpeg"
   },
   {
     "id": "philippines",
     "title": "Philippines",
     "short": "Vehicles and parts for the Philippine market.",
-    "description": "Common vehicles: Japanese trucks, kei-trucks and vans. Vehicles dismantled via CKD and Rack & Stack; parts numbered for reassembly on arrival.",
-    "bullets": ["Japanese trucks & vans","CKD","Rack & Stack","Numbered parts"],
-    "image": ""
+    "description": "Common vehicles: Japanese trucks, kei-trucks and vans. Vehicles are dismantled via CKD and Rack & Stack; parts numbered for reassembly on arrival.",
+    "bullets": [
+      {
+        "desc": "Japanese trucks & vans CKD/Rack & Stack - Dismantle and number parts for reassembly",
+        "img": [
+          "images/services/Philippines/Philippines-1.jpeg",
+          "images/services/Philippines/Philippines-2.jpeg",
+          "images/services/Philippines/Philippines-3.jpeg"
+        ]
+      }
+    ],
+    "image": "images/services/Philippines/Philippines-1.jpeg"
   },
   {
     "id": "global",
     "title": "Africa, Latin America & Europe",
     "short": "Exports to multiple global regions.",
     "description": "Complete vehicle export via RoRo or containerized shipment. CKD and Rack & Stack (dismantled and reassembled on arrival) and bulk used auto-parts by container.",
-    "bullets": ["RoRo or containerized shipment","CKD and Rack & Stack","Bulk used auto-parts"],
-    "image": ""
+    "bullets": [
+      {
+        "desc": "Complete vehicle export via RoRo or containerized shipment - Worldwide destinations",
+        "img": [
+          "images/services/africa/africa-1.jpeg"
+        ]
+      },
+      
+      {
+        "desc": "Containerized shipment - Global container shipping",
+        "img": "images/services/africa/africa-2.jpeg"
+      }
+    ],
+    "image": "images/services/africa/africa-1.jpeg"
   }
 ]
