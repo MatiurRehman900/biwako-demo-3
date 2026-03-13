@@ -276,6 +276,9 @@
            margin:30,
            nav:false,
            dots:false,
+           autoplay:true,
+           autoplayTimeout:2000,
+           autoplayHoverPause:true,
            responsive:{
              1300:{
                    items:5
@@ -1162,8 +1165,6 @@
      jQuery('.owl-custom-nav').each(function () {
          var $nav = jQuery(this);
          var owl = jQuery($nav.data('target')); // ambil id target carousel
-
-         owl.owlCarousel();
 
          // Custom Navigation Events khusus untuk nav ini
          $nav.find(".btn-next").on("click", function () {
