@@ -1,0 +1,155 @@
+[
+  {
+    "id": "russia",
+    "title": "Россия",
+    "short": "Экспорт автомобилей и запчастей на российский рынок.",
+    "description": "Мы специализируемся на экспорте подержанных автомобилей и автозапчастей в Россию, используя различные эффективные методы, адаптированные к потребностям клиентов и требованиям законодательства. Наш основной метод экспорта — полный экспорт автомобилей через Roll-on/Roll-off (RoRo), который предполагает отгрузку полностью собранных автомобилей на специализированных RoRo-суднах, способных перевозить легковые автомобили, грузовики и другие колесные транспортные средства. Этот метод экономичен для цельных автомобилей и обеспечивает их прибытие в идеальном состоянии без разборки.\n\nДля экспорта запчастей мы предлагаем легкую разборку (Light-Duty Cutting), когда автомобили частично демонтируются на управляемые секции для более удобной загрузки в контейнер и снижения стоимости доставки. Резка рамы (Frame Cutting) предполагает точную распиловку рам автомобиля для оптимизации пространства в контейнере при сохранении прочности конструкции. Также мы предоставляем разборку автомобиля на запасные части на паллетах (Disassembled Car Spare Parts on Pallets), когда автомобиль полностью разбирается, детали аккуратно сортируются, упаковываются и укладываются на паллеты для массовой отправки.\n\nДля европейских марок мы осуществляем загрузку полностью разобранных автомобилей в контейнеры (Disassembled Complete Cars Loading in Containers), когда автомобили разбираются на основные компоненты (двигатель, шасси, кузовные панели и т.д.), маркируются для упрощенной сборки и загружаются в стандартные морские контейнеры. Этот метод CKD (Completely Knocked Down) особенно подходит для европейских автомобилей, экспортируемых в Россию, позволяя оптимизировать таможенные процедуры и сократить затраты.\n\nВсе отгрузки сопровождаются полным комплектом экспортной документации, помощью в таможенном оформлении и страховым покрытием. Мы тесно сотрудничаем с российскими импортерами для обеспечения соблюдения местных требований и беспрепятственного прохождения таможни.",
+    "bullets": [
+      {
+        "desc": "Экспорт целых автомобилей через Roll-on/Roll-off (RoRo) - так как мы находимся в Тояме, для RoRo-экспорта мы в основном используем порт SHINKO Тояма и порт IWASE Тояма",
+        "img": "images/services/russia/Complete vehicle export via Roll-on:Roll.jpeg"
+      },
+      {
+        "desc": "Легкая разборка - этот метод применяется в основном для экономии таможенных пошлин в соответствии с требованиями заказчика",
+        "img": "images/services/russia/Light-duty cutting.jpeg"
+      },
+      {
+        "desc": "Резка рамы и полурама - метод Frame-cut или Half-cut широко используется для экспорта по всему миру",
+        "img": "images/services/russia/Frame cutting.jpeg"
+      },
+      {
+        "desc": "Полный демонтаж автомобиля и упаковка всех запчастей на паллете - в этом методе мы полностью разбираем автомобиль на детали, затем обматываем и упаковываем их на паллете",
+        "img": "images/services/russia/Disassembled car Spare parts on a pallet.jpeg"
+      },
+      {
+        "desc": "Загрузка разобранных целых автомобилей в контейнер (японские и европейские бренды) - экспорт контейнером, где 12–15 автомобилей разбираются на запчасти и затем (обматываются и упаковываются) в коробки",
+        "img": [
+          "images/services/russia/Disassembled complete cars loading in Container.jpeg",
+          "images/services/russia/Disassembled complete cars loading in Container-1.jpeg",
+          "images/services/russia/Disassembled complete cars loading in Container-2.jpeg",
+          "images/services/russia/Disassembled complete cars loading in Container-3.jpeg",
+          "images/services/russia/Disassembled complete cars loading in Container-4.jpeg",
+          "images/services/russia/Disassembled complete cars loading in Container-5.jpeg",
+          "images/services/russia/Disassembled complete cars loading in Container-6.jpeg",
+          "images/services/russia/Disassembled complete cars loading in Container-7.jpeg"
+        ]
+      },
+      {
+        "desc": "Контейнер с шинами с дисками или без - новые и б/у шины разных размеров в одном контейнере",
+        "img": [
+          "images/services/russia/Tire container-1.jpeg",
+          "images/services/russia/Tire container-2.jpeg",
+          "images/services/russia/alloy.png"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "uae",
+    "title": "ОАЭ (Дубай и Шарджа)",
+    "short": "Б/у автозапчасти оптом в контейнерах в ОАЭ.",
+    "description": "Мы экспортируем оптовые партии б/у автозапчастей в контейнерах в Дубай и Шарджу с оптимизированной загрузкой и надежной упаковкой. Услуги включают отправку контейнеров с шинами и специализированную упаковку автозапчастей.",
+    "bullets": [
+      {
+        "desc": "Б/у автозапчасти оптом в контейнере - в основном это запчасти для больших грузовиков, двигатели, полурамы, вилочные погрузчики, краны и всевозможные другие детали в контейнерных отправках",
+        "img": [
+          "images/services/UAE/Used Auto-Parts in Bulk by Container-1.jpeg",
+          "images/services/UAE/Used Auto-Parts in Bulk by Container-2.jpeg",
+          "images/services/UAE/Used Auto-Parts in Bulk by Container-3.jpeg",
+          "images/services/UAE/Used Auto-Parts in Bulk by Container-4.jpeg"
+        ]
+      },
+      {
+        "desc": "Контейнер с шинами с дисками или без - новые и б/у шины разных размеров в одном контейнере",
+        "img": [
+          "images/services/russia/Tire container-1.jpeg",
+          "images/services/russia/Tire container-2.jpeg",
+          "images/services/russia/alloy.png"
+        ]
+      }
+    ],
+    "image": "images/services/UAE/Used Auto-Parts in Bulk by Container-1.jpeg"
+  },
+  {
+    "id": "pakistan",
+    "title": "Пакистан",
+    "short": "Оптовая экспортная поставка б/у автозапчастей и целых автомобилей.",
+    "description": "Оптовые партии б/у автозапчастей в контейнерах и экспорт целых автомобилей через RoRo или контейнерные отправки в Пакистан. Мы подготавливаем и документируем отгрузки в соответствии с требованиями клиента.",
+    "bullets": [
+      {
+        "desc": "Экспорт целых автомобилей через RoRo или контейнерные отправки - в зависимости от графика судов и доступного места мы используем метод RoRo из почти всех крупных портов Японии, а для 3–6 автомобилей вместе контейнерная отправка также является экономичным методом",
+        "img": [
+          "images/services/Pakistan/Bulk Used Auto-Parts by Container-3.jpeg",
+          "images/services/Pakistan/Bulk Used Auto-Parts by Container-1.jpeg",
+          "images/services/Pakistan/Bulk Used Auto-Parts by Container-2.jpeg"
+        ]
+      },
+      {
+        "desc": "Оптовые б/у автозапчасти в контейнере - метод используется для самых востребованных запчастей в Пакистане",
+        "img": [
+          "images/services/russia/Disassembled complete cars loading in Container-7.jpeg"
+        ]
+      }
+    ],
+    "image": "images/services/Pakistan/Bulk Used Auto-Parts by Container-1.jpeg"
+  },
+  {
+    "id": "philippines",
+    "title": "Филиппины",
+    "short": "Автомобили и запчасти для рынка Филиппин.",
+    "description": "Типичные автомобили: японские грузовики, кей-траки и фургоны. Транспорт разбирается методом CKD и Rack & Stack; запчасти нумеруются для повторной сборки по прибытии.",
+    "bullets": [
+      {
+        "desc": "Rack & Stack - укладка набора из 2–3 больших и малых грузовиков или самосвалов для размещения внутри контейнера",
+        "img": [
+          "images/services/Philippines/rack-and-stack-3.png"
+        ]
+      },
+      {
+        "desc": "CKD (Complete Knock Down) - CKD (полная разборка) является наиболее часто используемым методом для легких (KEI) грузовиков и фургонов, таких как Suzuki Carry, Every (Multi Cab). Каждый автомобиль разбирается, затем детали аккуратно нумеруются, чтобы их можно было собрать по прибытии.",
+        "img": [
+          "images/services/Philippines/Philippines-1.jpeg",
+          "images/services/Philippines/Philippines-2.jpeg",
+          "images/services/Philippines/Philippines-3.jpeg"
+        ]
+      }
+    ],
+    "image": "images/services/Philippines/Philippines-1.jpeg"
+  },
+  {
+    "id": "global",
+    "title": "Африка, Латинская Америка и Европа",
+    "short": "Экспорт в несколько глобальных регионов.",
+    "description": "Экспорт целых автомобилей через RoRo или контейнерными отправками. CKD и Rack & Stack (разборка и сборка по прибытии) и оптовая поставка б/у автозапчастей в контейнерах.",
+    "bullets": [
+      {
+        "desc": "Экспорт целых автомобилей через RoRo или контейнерные отправки - в зависимости от графика судов и доступного места мы используем метод RoRo из почти всех крупных портов Японии, а для 3–6 автомобилей вместе контейнерная отправка также является экономичным методом",
+        "img": [
+          "images/services/Pakistan/Bulk Used Auto-Parts by Container-3.jpeg",
+          "images/services/Pakistan/Bulk Used Auto-Parts by Container-1.jpeg",
+          "images/services/Pakistan/Bulk Used Auto-Parts by Container-2.jpeg"
+        ]
+      },
+      {
+        "desc": "CKD и Rack & Stack - глобальная контейнерная доставка",
+        "img": [
+          "images/services/Philippines/Philippines-1.jpeg",
+          "images/services/Philippines/Philippines-2.jpeg",
+          "images/services/Philippines/Philippines-3.jpeg",
+          "images/services/Philippines/rack-ans-stack-2.png",
+          "images/services/Philippines/rack-and-stack-3.png"
+        ]
+      },
+      {
+        "desc": "Б/у автозапчасти оптом в контейнере - в основном это запчасти для больших грузовиков, двигатели, полурамы, вилочные погрузчики, краны и всевозможные другие детали в контейнерной отправке",
+        "img": [
+          "images/services/UAE/Used Auto-Parts in Bulk by Container-1.jpeg",
+          "images/services/UAE/Used Auto-Parts in Bulk by Container-2.jpeg",
+          "images/services/UAE/Used Auto-Parts in Bulk by Container-3.jpeg",
+          "images/services/UAE/Used Auto-Parts in Bulk by Container-4.jpeg"
+        ]
+      }
+    ],
+    "image": "images/services/africa/africa-1.jpeg"
+  }
+]

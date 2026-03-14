@@ -62,19 +62,31 @@
                             <div class="de-flex-col header-col-mid">
                                 <!-- mainemenu begin -->
                                 <ul id="mainmenu">
-                                    <li><a class="menu-item" href="index.html">Home</a></li>
-                                    <li><a class="menu-item" href="index.html#services">Services</a></li>
-                                    <li><a class="menu-item" href="index.html#business-flow">Business Flow</a></li>
-                                    <li><a class="menu-item" href="company-information.html">Company Information</a>
+                                    <li><a class="menu-item" href="index.html" data-i18n="nav.home"></a></li>
+                                    <li><a class="menu-item" href="index.html#services" data-i18n="nav.services"></a></li>
+                                    <li><a class="menu-item" href="index.html#business-flow" data-i18n="nav.businessFlow"></a></li>
+                                    <li><a class="menu-item" href="company-information.html" data-i18n="nav.companyInformation"></a>
                                     </li>
-                                    <li><a class="menu-item" href="gallery.html">Gallery</a></li>
-                                    <li><a class="menu-item" href="contact.html">Contact</a></li>
+                                    <li><a class="menu-item" href="gallery.html" data-i18n="nav.gallery"></a></li>
+                                    <li><a class="menu-item" href="contact.html" data-i18n="nav.contact"></a></li>
                                 </ul>
                                 <!-- mainmenu end -->
                             </div>
                             <div class="de-flex-col">
                                 <div class="menu_side_area">
                                     <span id="menu-btn"></span>
+                                </div>
+
+                                <div class="dropdown">
+                                    <button class="btn btn-outline-light dropdown-toggle" type="button"
+                                        id="langDropdownButton" data-bs-toggle="dropdown" aria-expanded="false" data-i18n="lang.label">
+                                        
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="langDropdownButton">
+                                        <li><a class="dropdown-item lang-select" href="#" data-lang="en" data-i18n="lang.english"></a></li>
+                                        <li><a class="dropdown-item lang-select" href="#" data-lang="ru" data-i18n="lang.russian"></a></li>
+                                        <li><a class="dropdown-item lang-select" href="#" data-lang="ja" data-i18n="lang.japanese"></a></li>
+                                    </ul>
                                 </div>
 
                                  <!-- <div id="btn-extra">
@@ -98,7 +110,7 @@
                     <div class="row gy-4 gx-5 align-items-center">
                         <div class="col-lg-12">
                             <div class="text-center">
-                                <h1 class="split">Gallery</h1>
+                                <h1 class="split" data-i18n="gallery.title"></h1>
                                 <p class="lead">Explore our complete collection of container images - engines, parts,
                                     and tires</p>
                             </div>
@@ -658,15 +670,14 @@
             <div class="container">
                 <div class="row g-4">
                     <div class="col-lg-6">
-                        <h3>Get a Quote</h3>
-                        <p>Ready to export your used car parts? Contact us for a personalized quote and expert guidance
-                            on container shipping worldwide.</p>
+                        <h3 data-i18n="overlay.getQuote"></h3>
+                        <p data-i18n="overlay.quoteText"></p>
                         <div class="spacer-20"></div>
-                        <a href="contact.html" class="btn-main">Contact Us</a>
+                        <a href="contact.html" class="btn-main" data-i18n="overlay.contactUs"></a>
                     </div>
 
                     <div class="col-lg-6">
-                        <h3>Quick Links</h3>
+                        <h3 data-i18n="overlay.quickLinks"></h3>
                         <ul class="ul-style-2">
                             <li><a href="index.html">Home</a></li>
                             <li><a href="services.html">Services</a></li>
@@ -685,6 +696,7 @@
     ================================================== -->
     <script src="js/plugins.js"></script>
     <script src="js/designesia.js"></script>
+    <script src="js/i18n.js"></script>
 
 </body>
 
