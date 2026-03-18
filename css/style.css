@@ -13551,6 +13551,9 @@ img {
   transform: scale(1.05);
 }
 
+.service-hover{
+  height: fit-content;
+}
 .service-hover:hover{
   background-color: var(--bg-grey);
   border-radius: 10px;

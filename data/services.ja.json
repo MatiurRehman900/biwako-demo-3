@@ -1,0 +1,155 @@
+[
+  {
+    "id": "russia",
+    "title": "ロシア",
+    "short": "ロシア市場向けの車両輸出と部品輸出。",
+    "description": "当社は、中古車と自動車部品をロシアへ輸出することを専門としており、お客様のニーズや規制要件に合わせたさまざまな効率的な方法を提供しています。主な輸出方法は、Roll-on/Roll-off（RoRo）による完成車輸出で、車やトラックなどの完成車を専用のRoRo船で輸送します。この方法は完成車の輸送に費用対効果が高く、分解せずに良好な状態で到着することを保証します。\n\n部品輸出では、車両を部分的に分解し、コンテナへの積載を容易にし、輸送コストを削減する「ライトデューティーカッティング」を提供しています。フレームカッティングでは、コンテナ内のスペースを最適化しつつ構造的強度を維持するために車両のフレームを精密にカットします。また、「分解した自動車部品のパレット積み」では、車両を完全に分解し、部品を丁寧に仕分け・包装してパレットに積み、まとめて輸送します。\n\n欧州ブランドに関しては、主要部品（エンジン、シャシー、ボディパネルなど）に分解し、再組立てを容易にするために番号を振り、標準的な海上コンテナに積み込む「分解済み完成車のコンテナ積載」を行います。このCKD（Completely Knocked Down）方式は、ロシア向けの欧州車に特に適しており、通関手続きの最適化とコスト削減に寄与します。\n\nすべての出荷には完全な輸出書類、通関手続きの支援、保険の適用が含まれます。現地の輸入業者と緊密に連携し、現地規制の順守とスムーズな通関を確保しています。",
+    "bullets": [
+      {
+        "desc": "Roll-on/Roll-off（RoRo）による完成車輸出 - 富山に拠点を置き、RoRo輸出では主に新興港（SHINKO）富山と岩瀬港（IWASE）富山を利用しています",
+        "img": "images/services/russia/Complete vehicle export via Roll-on:Roll.jpeg"
+      },
+      {
+        "desc": "ライトデューティーカッティング - この方法は主に顧客の要望に応じて関税を節約するために使用します",
+        "img": "images/services/russia/Light-duty cutting.jpeg"
+      },
+      {
+        "desc": "フレームカットおよびハーフカット - フレームカットまたはハーフカット方式は、世界中で広く輸出に使用されています",
+        "img": "images/services/russia/Frame cutting.jpeg"
+      },
+      {
+        "desc": "1台分のすべてのスペアパーツをパレットに積載 - この方法では、車両を完全に分解し、部品を梱包してパレットに積み込みます",
+        "img": "images/services/russia/Disassembled car Spare parts on a pallet.jpeg"
+      },
+      {
+        "desc": "コンテナへの分解済み完成車の積載（日本および欧州ブランド） - 12〜15台の車両を部品に分解し、それらを梱包してコンテナに積み込みます",
+        "img": [
+          "images/services/russia/Disassembled complete cars loading in Container.jpeg",
+          "images/services/russia/Disassembled complete cars loading in Container-1.jpeg",
+          "images/services/russia/Disassembled complete cars loading in Container-2.jpeg",
+          "images/services/russia/Disassembled complete cars loading in Container-3.jpeg",
+          "images/services/russia/Disassembled complete cars loading in Container-4.jpeg",
+          "images/services/russia/Disassembled complete cars loading in Container-5.jpeg",
+          "images/services/russia/Disassembled complete cars loading in Container-6.jpeg",
+          "images/services/russia/Disassembled complete cars loading in Container-7.jpeg"
+        ]
+      },
+      {
+        "desc": "ホイール付き／ホイールなしタイヤコンテナ - さまざまなサイズの新品および中古タイヤを1つのコンテナにまとめます",
+        "img": [
+          "images/services/russia/Tire container-1.jpeg",
+          "images/services/russia/Tire container-2.jpeg",
+          "images/services/russia/alloy.png"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "uae",
+    "title": "UAE（ドバイ＆シャルジャ）",
+    "short": "UAE向けにコンテナで中古自動車部品をまとめて輸出。",
+    "description": "ドバイとシャルジャへ、最適化されたコンテナ積載と安全な梱包で中古自動車部品をまとめて輸出しています。サービスにはタイヤコンテナの出荷や、自動車部品向けの専門的なコンテナ梱包が含まれます。",
+    "bullets": [
+      {
+        "desc": "コンテナによる中古自動車部品のまとめ輸出 - 主に大型トラック用部品、エンジン、ハーフカット、フォークリフト、クレーンなど、あらゆる種類の部品をコンテナ輸送します",
+        "img": [
+          "images/services/UAE/Used Auto-Parts in Bulk by Container-1.jpeg",
+          "images/services/UAE/Used Auto-Parts in Bulk by Container-2.jpeg",
+          "images/services/UAE/Used Auto-Parts in Bulk by Container-3.jpeg",
+          "images/services/UAE/Used Auto-Parts in Bulk by Container-4.jpeg"
+        ]
+      },
+      {
+        "desc": "ホイール付き／ホイールなしタイヤコンテナ - さまざまなサイズの新品および中古タイヤを1つのコンテナにまとめます",
+        "img": [
+          "images/services/russia/Tire container-1.jpeg",
+          "images/services/russia/Tire container-2.jpeg",
+          "images/services/russia/alloy.png"
+        ]
+      }
+    ],
+    "image": "images/services/UAE/Used Auto-Parts in Bulk by Container-1.jpeg"
+  },
+  {
+    "id": "pakistan",
+    "title": "パキスタン",
+    "short": "中古自動車部品のまとめ輸出と完成車の輸出。",
+    "description": "コンテナによる中古自動車部品のまとめ輸出と、RoRoまたはコンテナ輸送による完成車の輸出をパキスタン向けに行っています。お客様の要求に応じて出荷を準備し、書類を整えます。",
+    "bullets": [
+      {
+        "desc": "RoRoまたはコンテナ輸送による完成車の輸出 - 航行スケジュールとスペースの空き状況に応じて、日本のほぼすべての主要港からRoRo輸出を行い、3〜6台まとめての輸送にはコンテナ輸送もコスト効率の良い方法です",
+        "img": [
+          "images/services/Pakistan/Bulk Used Auto-Parts by Container-3.jpeg",
+          "images/services/Pakistan/Bulk Used Auto-Parts by Container-1.jpeg",
+          "images/services/Pakistan/Bulk Used Auto-Parts by Container-2.jpeg"
+        ]
+      },
+      {
+        "desc": "コンテナによる中古自動車部品のまとめ輸出 - パキスタンで高い需要がある部品向けの方法です",
+        "img": [
+          "images/services/russia/Disassembled complete cars loading in Container-7.jpeg"
+        ]
+      }
+    ],
+    "image": "images/services/Pakistan/Bulk Used Auto-Parts by Container-1.jpeg"
+  },
+  {
+    "id": "philippines",
+    "title": "フィリピン",
+    "short": "フィリピン市場向けの車両と部品。",
+    "description": "一般的な車両：日本のトラック、軽トラック、バン。車両はCKDおよびRack & Stackで分解され、到着後の再組立ができるように部品に番号が付けられます。",
+    "bullets": [
+      {
+        "desc": "Rack & Stack - 2〜3台の大・小トラックやダンプをコンテナ内に収めるための配置方法",
+        "img": [
+          "images/services/Philippines/rack-and-stack-3.png"
+        ]
+      },
+      {
+        "desc": "CKD（Complete Knock Down）- CKD（完全分解）は、Suzuki Carry、Every（マルチキャブ）などの軽トラックやバンで最も一般的に使用される方法です。各車両を分解し、部品を丁寧に番号付けして到着後に再組立ができるようにします。",
+        "img": [
+          "images/services/Philippines/Philippines-1.jpeg",
+          "images/services/Philippines/Philippines-2.jpeg",
+          "images/services/Philippines/Philippines-3.jpeg"
+        ]
+      }
+    ],
+    "image": "images/services/Philippines/Philippines-1.jpeg"
+  },
+  {
+    "id": "global",
+    "title": "アフリカ、ラテンアメリカ、ヨーロッパ",
+    "short": "複数のグローバル地域への輸出。",
+    "description": "RoRoまたはコンテナ輸送による完成車輸出。CKDおよびRack & Stack（到着後に分解および再組立）と、コンテナでの中古自動車部品のまとめ輸送。",
+    "bullets": [
+      {
+        "desc": "RoRoまたはコンテナ輸送による完成車輸出 - 航行スケジュールとスペースの空き状況に応じて、日本のほぼすべての主要港からRoRo輸出を行い、3〜6台まとめての輸送にはコンテナ輸送もコスト効率の良い方法です",
+        "img": [
+          "images/services/Pakistan/Bulk Used Auto-Parts by Container-3.jpeg",
+          "images/services/Pakistan/Bulk Used Auto-Parts by Container-1.jpeg",
+          "images/services/Pakistan/Bulk Used Auto-Parts by Container-2.jpeg"
+        ]
+      },
+      {
+        "desc": "CKDおよびRack & Stack - 世界的なコンテナ輸送",
+        "img": [
+          "images/services/Philippines/Philippines-1.jpeg",
+          "images/services/Philippines/Philippines-2.jpeg",
+          "images/services/Philippines/Philippines-3.jpeg",
+          "images/services/Philippines/rack-ans-stack-2.png",
+          "images/services/Philippines/rack-and-stack-3.png"
+        ]
+      },
+      {
+        "desc": "コンテナによる中古自動車部品のまとめ輸出 - 主に大型トラック用部品、エンジン、ハーフカット、フォークリフト、クレーンなど、あらゆる種類の部品をコンテナ輸送します",
+        "img": [
+          "images/services/UAE/Used Auto-Parts in Bulk by Container-1.jpeg",
+          "images/services/UAE/Used Auto-Parts in Bulk by Container-2.jpeg",
+          "images/services/UAE/Used Auto-Parts in Bulk by Container-3.jpeg",
+          "images/services/UAE/Used Auto-Parts in Bulk by Container-4.jpeg"
+        ]
+      }
+    ],
+    "image": "images/services/africa/africa-1.jpeg"
+  }
+]

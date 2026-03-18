@@ -68,19 +68,31 @@
                             <div class="de-flex-col header-col-mid">
                                 <!-- mainemenu begin -->
                                 <ul id="mainmenu">
-                                    <li><a class="menu-item" href="index.html">Home</a></li>
-                                    <li><a class="menu-item" href="index.html#services">Services</a></li>
-                                    <li><a class="menu-item" href="index.html#business-flow">Business Flow</a></li>
-                                    <li><a class="menu-item" href="company-information.html">Company Information</a>
+                                    <li><a class="menu-item" href="index.html" data-i18n="nav.home"></a></li>
+                                    <li><a class="menu-item" href="index.html#services" data-i18n="nav.services"></a></li>
+                                    <li><a class="menu-item" href="index.html#business-flow" data-i18n="nav.businessFlow"></a></li>
+                                    <li><a class="menu-item" href="company-information.html" data-i18n="nav.companyInformation"></a>
                                     </li>
-                                    <li><a class="menu-item" href="gallery.html">Gallery</a></li>
-                                    <li><a class="menu-item" href="contact.html">Contact</a></li>
+                                    <li><a class="menu-item" href="gallery.html" data-i18n="nav.gallery"></a></li>
+                                    <li><a class="menu-item" href="contact.html" data-i18n="nav.contact"></a></li>
                                 </ul>
                                 <!-- mainmenu end -->
                             </div>
                             <div class="de-flex-col">
                                 <div class="menu_side_area">
                                     <span id="menu-btn"></span>
+                                </div>
+
+                                <div class="dropdown">
+                                    <button class="btn btn-outline-light dropdown-toggle" type="button"
+                                        id="langDropdownButton" data-bs-toggle="dropdown" aria-expanded="false" data-i18n="lang.label">
+                                        
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="langDropdownButton">
+                                        <li><a class="dropdown-item lang-select" href="#" data-lang="en" data-i18n="lang.english"></a></li>
+                                        <li><a class="dropdown-item lang-select" href="#" data-lang="ru" data-i18n="lang.russian"></a></li>
+                                        <li><a class="dropdown-item lang-select" href="#" data-lang="ja" data-i18n="lang.japanese"></a></li>
+                                    </ul>
                                 </div>
 
                                  <!-- <div id="btn-extra">
@@ -104,10 +116,10 @@
                 <div class="container relative z-2">
                     <div class="row gy-4 gx-5 align-items-center">
                         <div class="col-lg-12">
-                            <h1 class="split">Our Services</h1>
+                            <h1 class="split" data-i18n="nav.services"></h1>
                             <ul class="crumb wow fadeInUp">
-                                <li><a href="index.html">Home</a></li>
-                                <li class="active">Our Services</li>
+                                <li><a href="index.html" data-i18n="breadcrumb.home"></a></li>
+                                <li class="active" data-i18n="nav.services"></li>
                             </ul>
                         </div>
                     </div>
@@ -120,7 +132,7 @@
                 <div class="container">
                     <div class="row g-4 justify-content-center mb-4">
                         <div class="col-lg-8 text-center">
-                            <div class="subtitle wow fadeInUp">What We Offer</div>
+                            <div class="subtitle wow fadeInUp" data-i18n="services.whatWeOffer"></div>
                             <!-- <h2 class="split" data-wow-delay=".2s">Complete Used Car Parts Export Solutions</h2> -->
                         </div>
                     </div>
@@ -192,11 +204,11 @@
                 <div class="container">
                     <div class="row g-4">
                         <div class="col-md-9">
-                            <h3 class="mb-0 fs-32 split">Ready to Export Used Car Parts Worldwide?</h3>
+                            <h3 class="mb-0 fs-32 split" data-i18n="quote.callToAction"></h3>
                         </div>
                         <div class="col-lg-3 text-lg-end">
                             <a class="btn-main fx-slide btn-line wow fadeInRight" data-wow-delay=".2s"
-                                href="contact.html"><span>Get Quote</span></a>
+                                href="contact.html" data-i18n="quote.button"><span></span></a>
                         </div>
                     </div>
                 </div>
@@ -230,14 +242,14 @@
 
                             <div class="col-md-6">
                                 <div class="widget">
-                                    <h5>Company</h5>
+                                    <h5 data-i18n="footer.company"></h5>
                                     <ul>
-                                        <li><a href="index.html">Home</a></li>
-                                        <li><a href="index.html#services">Services</a></li>
-                                        <li><a href="index.html#business-flow">Business Flow</a></li>
-                                        <li><a href="company-information.html">Company Information</a></li>
-                                        <li><a href="gallery.html">Gallery</a></li>
-                                        <li><a href="contact.html">Contact</a></li>
+                                        <li><a href="index.html" data-i18n="breadcrumb.home"></a></li>
+                                        <li><a href="index.html#services" data-i18n="nav.services"></a></li>
+                                        <li><a href="index.html#business-flow" data-i18n="nav.businessFlow"></a></li>
+                                        <li><a href="company-information.html" data-i18n="nav.companyInformation"></a></li>
+                                        <li><a href="gallery.html" data-i18n="nav.gallery"></a></li>
+                                        <li><a href="contact.html" data-i18n="nav.contact"></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -254,27 +266,27 @@
 
                     <div class="col-md-6">
                         <div class="d-flex align-items-center justify-content-between">
-                            <h2>Get in Touch</h2>
+                            <h2 data-i18n="footer.getInTouch"></h2>
                             <img src="images/ui/up-right-arrow.webp" class="w-60px op-5" alt="">
                         </div>
 
                         <div class="widget">
-                            <div class="op-5 fs-15">Email</div>
+                            <div class="op-5 fs-15" data-i18n="footer.email"></div>
                             <h3>rashidjap@yahoo.com</h3>
 
                             <div class="spacer-20"></div>
 
-                            <div class="op-5 fs-15">Phone</div>
+                            <div class="op-5 fs-15" data-i18n="footer.phone"></div>
                             <h3>+81-90-3052-8856</h3>
 
                             <div class="spacer-20"></div>
 
-                            <div class="op-5 fs-15">Office Location</div>
+                            <div class="op-5 fs-15" data-i18n="footer.location"></div>
                             <h3>933-0253 Toyama-ken, Imizu City, Nakano, Shichimi, 198-2, JAPAN</h3>
 
                             <div class="spacer-20"></div>
 
-                            <div class="op-5 fs-15">Business Hours</div>
+                            <div class="op-5 fs-15" data-i18n="footer.hours"></div>
                             <h3>Monday-Saturday 9:00 AM - 6:00 PM JST</h3>
 
                             <div class="spacer-20"></div>
@@ -310,19 +322,19 @@
 
             <div class="spacer-30-line"></div>
 
-            <h5>Our Services</h5>
+            <h5 data-i18n="overlay.services"></h5>
             <ul class="ul-check">
-                <li>Vehicle Dismantling</li>
-                <li>Parts Sourcing</li>
-                <li>Quality Inspection</li>
-                <li>Container Loading</li>
-                <li>Export Shipping</li>
-                <li>Export Documentation</li>
+                <li data-i18n="overlay.servicesList.vehicleDismantling"></li>
+                <li data-i18n="overlay.servicesList.partsSourcing"></li>
+                <li data-i18n="overlay.servicesList.qualityInspection"></li>
+                <li data-i18n="overlay.servicesList.containerLoading"></li>
+                <li data-i18n="overlay.servicesList.exportShipping"></li>
+                <li data-i18n="overlay.servicesList.documentation"></li>
             </ul>
 
             <div class="spacer-30-line"></div>
 
-            <h5>Contact Us</h5>
+            <h5 data-i18n="overlay.contact"></h5>
             <div><i class="icofont-phone me-2 op-5"></i>+81-90-3052-8856</div>
             <div><i class="icofont-location-pin me-2 op-5"></i>Shichiminakano 198-2, Imizu City, Toyama-ken, 933-0253,
                 JAPAN</div>
@@ -331,9 +343,8 @@
 
             <div class="spacer-30-line"></div>
 
-            <h5>About Us</h5>
-            <p>We are a trusted used car parts exporter with 22+ years of experience. We dismantle vehicles, source
-                quality parts, and ship worldwide from Japan.</p>
+            <h5 data-i18n="overlay.about"></h5>
+            <p data-i18n="overlay.aboutText"></p>
 
             <div class="social-icons">
                 <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
@@ -352,11 +363,13 @@
     <script src="js/designesia.js"></script>
     <script src="js/swiper.js"></script>
     <script src="js/custom-swiper-1.js"></script>
+    <script src="js/i18n.js"></script>
 
     <script>
-        document.addEventListener('DOMContentLoaded', function () {
+        function loadServices() {
             function el(html) { const d = document.createElement('div'); d.innerHTML = html; return d.firstElementChild }
-            fetch('data/services.json')
+            const lang = window.__SITE_LANG || 'en';
+            fetch(`data/services.${lang}.json`)
                 .then(r => r.json())
                 .then(services => {
                     const container = document.getElementById('services-list');
@@ -438,7 +451,13 @@
                     const container = document.getElementById('services-list');
                     if (container) container.innerHTML = '<div class="col-12">Failed to load services.</div>';
                 });
-        });
+        }
+
+        if (window.__SITE_LANG) {
+            loadServices();
+        } else {
+            document.addEventListener('i18nReady', loadServices);
+        }
     </script>
 
 </body>

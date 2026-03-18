@@ -64,15 +64,15 @@
                             <div class="de-flex-col header-col-mid">
                                 <!-- mainemenu begin -->
                                 <ul id="mainmenu">
-                                    <li><a class="menu-item" href="index.html">Home</a></li>
-                                    <li><a class="menu-item" href="services.html">Services</a>
+                                    <li><a class="menu-item" href="index.html" data-i18n="nav.home"></a></li>
+                                    <li><a class="menu-item" href="services.html" data-i18n="nav.services"></a>
                                         <ul>
                                             <li><a href="services.html">Services 1</a></li>
                                             <li><a href="services-2.html">Services 2</a></li>
                                             <li><a href="service-single.html">Service Single</a></li>
                                         </ul>
                                     </li>
-                                    <li><a class="menu-item" href="#">Company</a>
+                                    <li><a class="menu-item" href="#" data-i18n="nav.companyInformation"></a>
                                         <ul>
                                             <li><a href="about.html">About Us</a></li>
                                             <li><a href="team.html">Our Team</a></li>
@@ -80,8 +80,8 @@
                                             <li><a href="careers.html">Careers</a></li>
                                         </ul>
                                     </li>
-                                    <li><a class="menu-item" href="gallery.html">Gallery</a></li>
-                                    <li><a class="menu-item" href="contact.html">Contact</a></li>
+                                    <li><a class="menu-item" href="gallery.html" data-i18n="nav.gallery"></a></li>
+                                    <li><a class="menu-item" href="contact.html" data-i18n="nav.contact"></a></li>
                                 </ul>
                                 <!-- mainmenu end -->
                             </div>
@@ -90,6 +90,18 @@
                                     <!-- <a href="booking.html" class="btn-main btn-line fx-slide"><span>Book
                                             Shipment</span></a> -->
                                     <span id="menu-btn"></span>
+                                </div>
+
+                                <div class="dropdown">
+                                    <button class="btn btn-outline-light dropdown-toggle" type="button"
+                                        id="langDropdownButton" data-bs-toggle="dropdown" aria-expanded="false" data-i18n="lang.label">
+                                        
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="langDropdownButton">
+                                        <li><a class="dropdown-item lang-select" href="#" data-lang="en" data-i18n="lang.english"></a></li>
+                                        <li><a class="dropdown-item lang-select" href="#" data-lang="ru" data-i18n="lang.russian"></a></li>
+                                        <li><a class="dropdown-item lang-select" href="#" data-lang="ja" data-i18n="lang.japanese"></a></li>
+                                    </ul>
                                 </div>
 
                                  <!-- <div id="btn-extra">
@@ -266,10 +278,10 @@
                 <div class="container">
                     <div class="row g-4">
                         <div class="col-md-9">
-                            <h3 class="mb-0 fs-32 split">Ready to Export Used Car Parts Worldwide?</h3>
+                            <h3 class="mb-0 fs-32 split" data-i18n="quote.callToAction"></h3>
                         </div>
                         <div class="col-lg-3 text-lg-end">
-                            <a class="btn-main fx-slide btn-line wow fadeInRight" data-wow-delay=".2s" href="booking.html"><span>Book Shipment</span></a>
+                            <a class="btn-main fx-slide btn-line wow fadeInRight" data-wow-delay=".2s" href="booking.html" data-i18n="quote.button"><span></span></a>
                         </div>
                     </div>
                 </div>
@@ -386,7 +398,7 @@
 
             <div class="spacer-30-line"></div>
 
-            <h5>Our Services</h5>
+            <h5 data-i18n="overlay.services"></h5>
             <ul class="ul-check">
                 <li>Trucking</li>
                 <li>Air Fright</li>
@@ -400,7 +412,7 @@
 
             <div class="spacer-30-line"></div>
 
-            <h5>Contact Us</h5>
+            <h5 data-i18n="overlay.contact"></h5>
             <div><i class="icofont-phone me-2 op-5"></i>+81-90-3052-8856</div>
             <div><i class="icofont-location-pin me-2 op-5"></i>933-0253 Toyama-ken, Imizu City, Nakano, Shichimi, 198-2, JAPAN</div>
             <div><i class="icofont-envelope me-2 op-5"></i>rashidjap@yahoo.com</div>
@@ -408,7 +420,7 @@
 
             <div class="spacer-30-line"></div>
 
-            <h5>About Us</h5>
+            <h5 data-i18n="overlay.about"></h5>
             <p>We are a trusted logistics and cargo solutions provider committed to delivering your goods safely, efficiently, and on time. With years of experience in freight forwarding, warehousing, and international shipping.</p>
 
             <div class="social-icons">
@@ -432,6 +444,7 @@
     <script src="js/designesia.js"></script>
     <script src="js/swiper.js"></script>
     <script src="js/custom-swiper-1.js"></script>
+    <script src="js/i18n.js"></script>
 
 
 

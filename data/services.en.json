@@ -1,0 +1,155 @@
+[
+  {
+    "id": "russia",
+    "title": "Russia",
+    "short": "Vehicle export and parts for the Russian market.",
+    "description": "We specialize in exporting used vehicles and auto parts to Russia using various efficient methods tailored to customer needs and regulatory requirements. Our primary export method is Complete Vehicle Export via Roll-on/Roll-off (RoRo), which involves shipping fully assembled vehicles on specialized RoRo vessels that can carry cars, trucks, and other wheeled vehicles. This method is cost-effective for complete vehicles and ensures they arrive in pristine condition without disassembly.\n\nFor parts export, we offer Light-Duty Cutting, where vehicles are partially dismantled into manageable sections for easier container loading and reduced shipping costs. Frame Cutting involves precise cutting of vehicle frames to optimize space in containers while maintaining structural integrity. We also provide Disassembled Car Spare Parts on Pallets, where vehicles are completely dismantled, parts are carefully sorted, packaged, and loaded onto pallets for bulk shipping.\n\nFor European brands, we handle Disassembled Complete Cars Loading in Containers, where vehicles are dismantled into major components (engine, chassis, body panels, etc.), numbered for easy reassembly, and loaded into standard shipping containers. This CKD (Completely Knocked Down) method is particularly suitable for European vehicles destined for Russia, allowing for customs optimization and cost savings.\n\nAll shipments include full export documentation, customs clearance assistance, and insurance coverage. We work closely with Russian importers to ensure compliance with local regulations and smooth customs processing.",
+    "bullets": [
+      {
+        "desc": "Complete vehicle export via Roll-on/Roll (RoRo) - As we are located in Toyama, so for RoRo export we mostly use SHINKO port Toyama and IWASE port Toyama",
+        "img": "images/services/russia/Complete vehicle export via Roll-on:Roll.jpeg"
+      },
+      {
+        "desc": "Light-duty cutting - This method mostly uses for saving some customs duties according to customer’s demand",
+        "img": "images/services/russia/Light-duty cutting.jpeg"
+      },
+      {
+        "desc": "Frame cut & Half Cut - Frame-cut or Half-cut method is widely use for export in all over the world",
+        "img": "images/services/russia/Frame cutting.jpeg"
+      },
+      {
+        "desc": "Disassembled one car's all spare parts on a pallet - In this method we completely disassembled one car into parts and then rapped & packed on a Pallet",
+        "img": "images/services/russia/Disassembled car Spare parts on a pallet.jpeg"
+      },
+      {
+        "desc": "Disassembled complete cars loading in Container (Japanese & European brands) - Export by Container of disassembled (12~15) cars into parts and then (rapped & packed) in Boxes",
+        "img": [
+          "images/services/russia/Disassembled complete cars loading in Container.jpeg",
+          "images/services/russia/Disassembled complete cars loading in Container-1.jpeg",
+          "images/services/russia/Disassembled complete cars loading in Container-2.jpeg",
+          "images/services/russia/Disassembled complete cars loading in Container-3.jpeg",
+          "images/services/russia/Disassembled complete cars loading in Container-4.jpeg",
+          "images/services/russia/Disassembled complete cars loading in Container-5.jpeg",
+          "images/services/russia/Disassembled complete cars loading in Container-6.jpeg",
+          "images/services/russia/Disassembled complete cars loading in Container-7.jpeg"
+        ]
+      },
+      {
+        "desc": "Tire container with or without alloy wheel - New and used tires of different size in one container",
+        "img": [
+          "images/services/russia/Tire container-1.jpeg",
+          "images/services/russia/Tire container-2.jpeg",
+          "images/services/russia/alloy.png"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "uae",
+    "title": "UAE (Dubai & Sharjah)",
+    "short": "Used auto-parts in bulk by container to UAE.",
+    "description": "We export bulk used auto-parts in containers to Dubai and Sharjah with optimized container loading and secure packaging. Services include tire container shipments and specialized container packing for auto parts.",
+    "bullets": [
+      {
+        "desc": "Used Auto-Parts in Bulk by Container - Mostly parts of big trucks, Engines, half-cuts, fork lifts, cranes and all kind of other parts in Containerized shipment",
+        "img": [
+          "images/services/UAE/Used Auto-Parts in Bulk by Container-1.jpeg",
+          "images/services/UAE/Used Auto-Parts in Bulk by Container-2.jpeg",
+          "images/services/UAE/Used Auto-Parts in Bulk by Container-3.jpeg",
+          "images/services/UAE/Used Auto-Parts in Bulk by Container-4.jpeg"
+        ]
+      },
+      {
+        "desc": "Tire container with or without alloy wheel - New and used tires of different size in one container",
+        "img": [
+          "images/services/russia/Tire container-1.jpeg",
+          "images/services/russia/Tire container-2.jpeg",
+          "images/services/russia/alloy.png"
+        ]
+      }
+    ],
+    "image": "images/services/UAE/Used Auto-Parts in Bulk by Container-1.jpeg"
+  },
+  {
+    "id": "pakistan",
+    "title": "Pakistan",
+    "short": "Bulk used auto-parts and complete vehicle export.",
+    "description": "Bulk used auto-parts by container and complete vehicle export via RoRo or containerized shipment to Pakistan. We prepare and document shipments per customer requirements.",
+    "bullets": [
+      {
+        "desc": "Complete vehicle export via RoRo or containerized shipment - According to the shipping schedules and space availability we use RoRo export method from almost all major ports of Japan and for 3 ~6 cars together, Containerized shipment is also a cost affective method",
+        "img": [
+          "images/services/Pakistan/Bulk Used Auto-Parts by Container-3.jpeg",
+          "images/services/Pakistan/Bulk Used Auto-Parts by Container-1.jpeg",
+          "images/services/Pakistan/Bulk Used Auto-Parts by Container-2.jpeg"
+        ]
+      },
+      {
+        "desc": "Bulk Used Auto-Parts by Container - Bulk Used Auto-Parts by Container method is used for highly in demand parts in Pakistan",
+        "img": [
+          "images/services/russia/Disassembled complete cars loading in Container-7.jpeg"
+        ]
+      }
+    ],
+    "image": "images/services/Pakistan/Bulk Used Auto-Parts by Container-1.jpeg"
+  },
+  {
+    "id": "philippines",
+    "title": "Philippines",
+    "short": "Vehicles and parts for the Philippine market.",
+    "description": "Common vehicles: Japanese trucks, kei-trucks and vans. Vehicles are dismantled via CKD and Rack & Stack; parts numbered for reassembly on arrival.",
+    "bullets": [
+      {
+        "desc": "Rack & Stack - Making a set of 2~3 big and small trucks or dumps to fit inside a container",
+        "img": [
+          "images/services/Philippines/rack-and-stack-3.png"
+        ]
+      },
+      {
+        "desc": "CKD (complete knock down) - CKD (Complete knock down) is the most commonly use method for small (KEI) trucks and vans i.e. Suzuki Carry, Every (Multi Cab). As each vehicle are dismantled, then parts are carefully numbered specific to the given vehicle ready for reassemble on arrival.",
+        "img": [
+          "images/services/Philippines/Philippines-1.jpeg",
+          "images/services/Philippines/Philippines-2.jpeg",
+          "images/services/Philippines/Philippines-3.jpeg"
+        ]
+      }
+    ],
+    "image": "images/services/Philippines/Philippines-1.jpeg"
+  },
+  {
+    "id": "global",
+    "title": "Africa, Latin America & Europe",
+    "short": "Exports to multiple global regions.",
+    "description": "Complete vehicle export via RoRo or containerized shipment. CKD and Rack & Stack (dismantled and reassembled on arrival) and bulk used auto-parts by container.",
+    "bullets": [
+      {
+        "desc": "Complete vehicle export via RoRo or containerized shipment - According to the shipping schedules and space availability we use RoRo export method from almost all major ports of Japan and for 3 ~6 cars together, Containerized shipment is also a cost affective method",
+        "img": [
+          "images/services/Pakistan/Bulk Used Auto-Parts by Container-3.jpeg",
+          "images/services/Pakistan/Bulk Used Auto-Parts by Container-1.jpeg",
+          "images/services/Pakistan/Bulk Used Auto-Parts by Container-2.jpeg"
+        ]
+      },
+      {
+        "desc": "CKD and Rack & Stack - Global container shipping",
+        "img": [
+          "images/services/Philippines/Philippines-1.jpeg",
+          "images/services/Philippines/Philippines-2.jpeg",
+          "images/services/Philippines/Philippines-3.jpeg",
+           "images/services/Philippines/rack-ans-stack-2.png",
+           "images/services/Philippines/rack-and-stack-3.png"
+        ]
+      },
+      {
+        "desc": "Used Auto-Parts in Bulk by Container - Mostly parts of big trucks, Engines, half-cuts, fork lifts, cranes and all kind of other parts in Containerized shipment",
+        "img": [
+          "images/services/UAE/Used Auto-Parts in Bulk by Container-1.jpeg",
+          "images/services/UAE/Used Auto-Parts in Bulk by Container-2.jpeg",
+          "images/services/UAE/Used Auto-Parts in Bulk by Container-3.jpeg",
+          "images/services/UAE/Used Auto-Parts in Bulk by Container-4.jpeg"
+        ]
+      }
+    ],
+    "image": "images/services/africa/africa-1.jpeg"
+  }
+]
