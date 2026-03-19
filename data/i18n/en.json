@@ -11,6 +11,9 @@
   "lang.japanese": "Japanese",
 
   "hero.title": "Your Trusted Export Partner from Japan",
+  "hero.title.before": "Your Trusted",
+  "hero.title.highlight": "Export",
+  "hero.title.after": "Partner from Japan",
   "hero.subtitle": "We systematically dismantle vehicles to extract high-quality used parts. Each component is carefully inspected, catalogued, and prepared for export in secure containers to destinations worldwide.",
   "hero.cta": "Request Parts",
   "hero.feature.quality": "Quality Inspection",
