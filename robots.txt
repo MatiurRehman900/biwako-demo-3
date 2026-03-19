@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+Disallow: /send-quote.php
+Disallow: /data/
+
+User-agent: Yandex
+Allow: /
+Crawl-delay: 2
+Disallow: /send-quote.php
+Disallow: /data/
+
+Sitemap: https://biwako-parts.jp/sitemap.xml
