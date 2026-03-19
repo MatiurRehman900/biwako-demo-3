@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.biwako-autoparts.com/sitemap.xml
+Sitemap: https://biwako-parts.jp/sitemap.xml
