@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript">
-        (function(m,e,t,r,i,k,a){
-            m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-            m[i].l=1*new Date();
-            for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
-            k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
-        })(window, document,'script','https://mc.yandex.ru/metrika/tag.js?id=108156607', 'ym');
-        ym(108156607, 'init', {ssr:true, webvisor:true, clickmap:true, ecommerce:"dataLayer", referrer: document.referrer, url: location.href, accurateTrackBounce:true, trackLinks:true});
+        (function (m, e, t, r, i, k, a) {
+            m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
+            m[i].l = 1 * new Date();
+            for (var j = 0; j < document.scripts.length; j++) { if (document.scripts[j].src === r) { return; } }
+            k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+        })(window, document, 'script', 'https://mc.yandex.ru/metrika/tag.js?id=108156607', 'ym');
+        ym(108156607, 'init', { ssr: true, webvisor: true, clickmap: true, ecommerce: "dataLayer", referrer: document.referrer, url: location.href, accurateTrackBounce: true, trackLinks: true });
     </script>
-    <noscript><div><img src="https://mc.yandex.ru/watch/108156607" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <noscript>
+        <div><img src="https://mc.yandex.ru/watch/108156607" style="position:absolute; left:-9999px;" alt="" /></div>
+    </noscript>
     <!-- /Yandex.Metrika counter -->
     <title data-i18n="article.import.title"></title>
     <link rel="icon" href="../images/favicon.png" type="image/gif" sizes="16x16">
@@ -23,11 +26,12 @@
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://biwako-parts.jp/blog/kak-importirovat-zapchasti-iz-yaponii.html">
     <link rel="alternate" hreflang="ru" href="https://biwako-parts.jp/blog/kak-importirovat-zapchasti-iz-yaponii.html">
-    <link rel="alternate" hreflang="x-default" href="https://biwako-parts.jp/blog/kak-importirovat-zapchasti-iz-yaponii.html">
+    <link rel="alternate" hreflang="x-default"
+        href="https://biwako-parts.jp/blog/kak-importirovat-zapchasti-iz-yaponii.html">
     <meta property="og:type" content="article">
     <meta property="og:url" content="https://biwako-parts.jp/blog/kak-importirovat-zapchasti-iz-yaponii.html">
-    <meta property="og:title" data-i18n="article.import.title" data-i18n-attr="content" content="">
-    <meta property="og:description" data-i18n="article.import.meta.ogDescription" data-i18n-attr="content" content="">
+    <meta property="og:title" data-i18n="article.import.title" data-i18n-attr="content" content="Как импортировать автозапчасти из Японии: пошаговое руководство">
+    <meta property="og:description" data-i18n="article.import.meta.ogDescription" data-i18n-attr="content" content="Пошаговое руководство по импорту б/у автозапчастей из Японии в Россию: выбор поставщика, доставка, таможня.">
     <meta property="og:image" content="https://biwako-parts.jp/images/misc/container.jpeg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
@@ -62,160 +66,342 @@
     <link id="colors" href="../css/colors/scheme-01.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" />
     <style>
-        .blog-article { max-width: 860px; margin: 0 auto; }
-        .blog-article h1 { font-size: 2rem; font-weight: 800; margin-bottom: 1rem; }
-        .blog-article h2 { font-size: 1.4rem; font-weight: 700; margin-top: 2.5rem; margin-bottom: 1rem; color: #F85C00; }
-        .blog-article h3 { font-size: 1.15rem; font-weight: 600; margin-top: 1.5rem; }
-        .blog-article p, .blog-article li { font-size: 1.05rem; line-height: 1.8; color: #333; }
-        .blog-article ul { padding-left: 1.5rem; }
-        .blog-meta { color: #888; font-size: 0.9rem; margin-bottom: 2rem; }
-        .blog-cta-box { background: #F85C00; color: #fff; border-radius: 8px; padding: 2rem; margin: 2.5rem 0; text-align: center; }
-        .blog-cta-box h3 { color: #fff; margin-bottom: 1rem; }
-        .blog-cta-box a { background: #fff; color: #F85C00; font-weight: 700; padding: 12px 32px; border-radius: 4px; text-decoration: none; display: inline-block; }
-        .step-card { background: #f8f8f8; border-left: 4px solid #F85C00; padding: 1.2rem 1.5rem; margin-bottom: 1rem; border-radius: 0 6px 6px 0; }
-        .step-card .step-num { font-size: 1.5rem; font-weight: 800; color: #F85C00; }
-        .breadcrumb-blog { font-size: 0.9rem; color: #888; margin-bottom: 1.5rem; }
-        .breadcrumb-blog a { color: #F85C00; text-decoration: none; }
-        .related-articles { background: #f8f8f8; border-radius: 8px; padding: 1.5rem; margin-top: 3rem; }
-        .related-articles h4 { margin-bottom: 1rem; }
-        .related-articles a { color: #F85C00; text-decoration: none; display: block; margin-bottom: 0.5rem; font-weight: 500; }
+        .blog-article {
+            max-width: 860px;
+            margin: 0 auto;
+        }
+
+        .blog-article h1 {
+            font-size: 2rem;
+            font-weight: 800;
+            margin-bottom: 1rem;
+        }
+
+        .blog-article h2 {
+            font-size: 1.4rem;
+            font-weight: 700;
+            margin-top: 2.5rem;
+            margin-bottom: 1rem;
+            color: #F85C00;
+        }
+
+        .blog-article h3 {
+            font-size: 1.15rem;
+            font-weight: 600;
+            margin-top: 1.5rem;
+        }
+
+        .blog-article p,
+        .blog-article li {
+            font-size: 1.05rem;
+            line-height: 1.8;
+            color: #333;
+        }
+
+        .blog-article ul {
+            padding-left: 1.5rem;
+        }
+
+        .blog-meta {
+            color: #888;
+            font-size: 0.9rem;
+            margin-bottom: 2rem;
+        }
+
+        .blog-cta-box {
+            background: #F85C00;
+            color: #fff;
+            border-radius: 8px;
+            padding: 2rem;
+            margin: 2.5rem 0;
+            text-align: center;
+        }
+
+        .blog-cta-box h3 {
+            color: #fff;
+            margin-bottom: 1rem;
+        }
+
+        .blog-cta-box a {
+            background: #fff;
+            color: #F85C00;
+            font-weight: 700;
+            padding: 12px 32px;
+            border-radius: 4px;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .step-card {
+            background: #f8f8f8;
+            border-left: 4px solid #F85C00;
+            padding: 1.2rem 1.5rem;
+            margin-bottom: 1rem;
+            border-radius: 0 6px 6px 0;
+        }
+
+        .step-card .step-num {
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: #F85C00;
+        }
+
+        .breadcrumb-blog {
+            font-size: 0.9rem;
+            color: #888;
+            margin-bottom: 1.5rem;
+        }
+
+        .breadcrumb-blog a {
+            color: #F85C00;
+            text-decoration: none;
+        }
+
+        .related-articles {
+            background: #f8f8f8;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-top: 3rem;
+        }
+
+        .related-articles h4 {
+            margin-bottom: 1rem;
+        }
+
+        .related-articles a {
+            color: #F85C00;
+            text-decoration: none;
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+        }
     </style>
 </head>
-<body>
-<div id="wrapper">
-    <a href="#" id="back-to-top"></a>
-    <div id="de-loader"></div>
 
-    <!-- header -->
-    <header class="header-static transparent mt-lg-4 pt-lg-2">
-        <div class="container">
-            <div class="row"><div class="col-md-12">
-                <div class="de-flex sm-pt10">
-                    <div class="de-flex-col">
-                        <div id="logo">
-                            <a href="../index.html">
-                                <div class="logo-main"><img src="../images/logo.png" alt="Biwako - автозапчасти из Японии" style="height:70px;"></div>
-                                <div class="logo-scroll"><img src="../images/logo.png" alt="" style="height:50px;"></div>
-                                <div class="logo-mobile"><img src="../images/logo.png" alt="" style="height:50px;"></div>
-                            </a>
+<body>
+    <div id="wrapper">
+        <a href="#" id="back-to-top"></a>
+        <div id="de-loader"></div>
+
+        <!-- header -->
+        <header class="header-static transparent mt-lg-4 pt-lg-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="de-flex sm-pt10">
+                            <div class="de-flex-col">
+                                <div id="logo">
+                                    <a href="../index.html">
+                                        <div class="logo-main"><img src="../images/logo.png"
+                                                alt="Biwako - автозапчасти из Японии" style="height:70px;"></div>
+                                        <div class="logo-scroll"><img src="../images/logo.png" alt=""
+                                                style="height:50px;"></div>
+                                        <div class="logo-mobile"><img src="../images/logo.png" alt=""
+                                                style="height:50px;"></div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="de-flex-col header-col-mid">
+                                <ul id="mainmenu">
+                                    <li><a class="menu-item" href="../index.html" data-i18n="nav.home"></a></li>
+                                    <li><a class="menu-item" href="../index.html#services" data-i18n="nav.services"></a>
+                                    </li>
+                                    <li><a class="menu-item" href="../company-information.html"
+                                            data-i18n="nav.companyInformation"></a></li>
+                                    <li><a class="menu-item" href="../gallery.html" data-i18n="nav.gallery"></a></li>
+                                    <li><a class="menu-item active" href="../blog.html" data-i18n="nav.blog"></a></li>
+                                    <li><a class="menu-item" href="../contact.html" data-i18n="nav.contact"></a></li>
+                                </ul>
+                            </div>
+                            <div class="de-flex-col">
+                                <div class="menu_side_area">
+                                    <div id="languageSelect"></div><span id="menu-btn"></span>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="de-flex-col header-col-mid">
-                        <ul id="mainmenu">
-                            <li><a class="menu-item" href="../index.html" data-i18n="nav.home"></a></li>
-                            <li><a class="menu-item" href="../index.html#services" data-i18n="nav.services"></a></li>
-                            <li><a class="menu-item" href="../company-information.html" data-i18n="nav.companyInformation"></a></li>
-                            <li><a class="menu-item" href="../gallery.html" data-i18n="nav.gallery"></a></li>
-                            <li><a class="menu-item active" href="../blog.html" data-i18n="nav.blog"></a></li>
-                            <li><a class="menu-item" href="../contact.html" data-i18n="nav.contact"></a></li>
-                        </ul>
-                    </div>
-                    <div class="de-flex-col">
-                        <div class="menu_side_area"><div id="languageSelect"></div><span id="menu-btn"></span></div>
+                </div>
+            </div>
+        </header>
+
+        <div class="no-bottom no-top" id="content">
+            <div id="top"></div>
+
+            <!-- Subheader -->
+            <section id="subheader" class="text-light sm-mt-90 relative rounded-1 overflow-hidden m-3"
+                data-bgimage="url(../images/misc/container.jpeg) center">
+                <div class="container relative z-2">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h1 class="split" data-i18n="article.breadcrumb.blog"></h1>
+                            <ul class="crumb wow fadeInUp">
+                                <li><a href="../index.html" data-i18n="breadcrumb.home"></a></li>
+                                <li><a href="../blog.html" data-i18n="article.breadcrumb.blog"></a></li>
+                                <li class="active" data-i18n="article.import.breadcrumb"></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-            </div></div>
+                <div class="gradient-edge-bottom color op-7 h-80"></div>
+                <div class="sw-overlay op-7"></div>
+            </section>
+
+            <section>
+                <div class="container">
+                    <div class="blog-article">
+
+                        <div class="blog-meta">
+                            <span data-i18n="article.meta.date"></span> &nbsp;|&nbsp;
+                            <span data-i18n="article.meta.author"></span> &nbsp;|&nbsp;
+                            <span data-i18n="article.import.meta.tags"></span>
+                        </div>
+
+                        <h1 data-i18n="article.import.title"></h1>
+
+                        <div data-i18n-html="article.import.body"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- CTA Banner -->
+            <section class="bg-color text-light pt-50 pb-50">
+                <div class="container">
+                    <div class="row g-4">
+                        <div class="col-md-9">
+                            <h3 class="mb-0 fs-32 split" data-i18n="article.import.ctaHeading"></h3>
+                        </div>
+                        <div class="col-lg-3 text-lg-end"><a class="btn-main fx-slide btn-line" href="../contact.html"
+                                data-i18n="article.ctaButton"></a></div>
+                    </div>
+                </div>
+            </section>
         </div>
-    </header>
 
-    <div class="no-bottom no-top" id="content">
-        <div id="top"></div>
-
-        <!-- Subheader -->
-        <section id="subheader" class="text-light sm-mt-90 relative rounded-1 overflow-hidden m-3" data-bgimage="url(../images/misc/container.jpeg) center">
-            <div class="container relative z-2">
-                <div class="row"><div class="col-lg-12">
-                    <h1 class="split" data-i18n="article.breadcrumb.blog"></h1>
-                    <ul class="crumb wow fadeInUp">
-                        <li><a href="../index.html" data-i18n="breadcrumb.home"></a></li>
-                        <li><a href="../blog.html" data-i18n="article.breadcrumb.blog"></a></li>
-                        <li class="active" data-i18n="article.import.breadcrumb"></li>
-                    </ul>
-                </div></div>
-            </div>
-            <div class="gradient-edge-bottom color op-7 h-80"></div>
-            <div class="sw-overlay op-7"></div>
-        </section>
-
-        <section>
+        <!-- footer -->
+        <footer class="text-light section-dark">
             <div class="container">
-                <div class="blog-article">
+                <div class="row g-4 justify-content-between">
+                    <div class="col-md-6">
+                        <div class="d-flex align-items-center gap-2 mb-2">
+                            <img src="images/logo.png" alt="" style="height: 70px;">
+                            <!-- <h3 class=" text-white mb-0" style="font-weight: 800;">Biwako</h3> -->
+                        </div>
+                        <div class="spacer-single"></div>
+                        <div class="row g-4">
+                            <!--  <div class="col-md-6">
+                                <div class="widget">
+                                    <h5>Services</h5>
+                                    <ul>
+                                        <li><a>Vehicle Dismantling</a></li>
+                                        <li><a>Parts Sourcing</a></li>
+                                        <li><a>Quality Inspection</a></li>
+                                        <li><a>Container Loading</a></li>
+                                        <li><a>Export Shipping</a></li>
+                                        <li><a>Documentation</a></li>
+                                    </ul>
+                                </div>
+                            </div> -->
 
-                    <div class="blog-meta">
-                        <span data-i18n="article.meta.date"></span> &nbsp;|&nbsp;
-                        <span data-i18n="article.meta.author"></span> &nbsp;|&nbsp;
-                        <span data-i18n="article.import.meta.tags"></span>
+                            <div class="col-md-6">
+                                <div class="widget">
+                                    <h5 data-i18n="footer.company"></h5>
+                                    <ul>
+                                        <li><a href="index.html" data-i18n="breadcrumb.home"></a></li>
+                                        <li><a href="index.html#services" data-i18n="nav.services"></a></li>
+                                        <li><a href="index.html#business-flow" data-i18n="nav.businessFlow"></a></li>
+                                        <li><a href="company-information.html" data-i18n="nav.companyInformation"></a>
+                                        </li>
+                                        <li><a href="gallery.html" data-i18n="nav.gallery"></a></li>
+                                        <li><a href="blog.html" data-i18n="nav.blog"></a></li>
+                                        <li><a href="contact.html" data-i18n="nav.contact"></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+
+
                     </div>
 
-                    <h1 data-i18n="article.import.title"></h1>
+                    <div class="col-md-6">
+                        <div class="d-flex align-items-center justify-content-between">
+                            <h2 data-i18n="footer.getInTouch"></h2>
+                            <img src="images/ui/up-right-arrow.webp" class="w-60px op-5" alt="">
+                        </div>
 
-                    <div data-i18n-html="article.import.body"></div>
+                        <div class="widget">
+                            <div class="op-5 fs-15" data-i18n="footer.email"></div>
+                            <h5 class="mb-0"><a href="mailto:rashidjap@yahoo.com"
+                                    style="color:inherit;">rashidjap@yahoo.com</a></h5>
+
+                            <!-- <div class="spacer-20"></div> -->
+
+                            <div class="op-5 fs-15" data-i18n="footer.phone"></div>
+                            <h5 class="mb-0"><a href="tel:+819030528856" style="color:inherit;">+81-90-3052-8856</a>
+                            </h5>
+
+                            <!-- <div class="spacer-20"></div> -->
+
+                            <div class="op-5 fs-15" data-i18n="footer.location"></div>
+                            <h5 class="mb-0">933-0253 Toyama-ken, Imizu City, Nakano, Shichimi, 198-2, JAPAN</h5>
+
+                            <!-- <div class="spacer-20"></div> -->
+
+                            <div class="op-5 fs-15" data-i18n="footer.hours"></div>
+                            <h5 class="mb-0">Monday-Saturday 9:00 AM - 6:00 PM JST</h5>
+
+                            <!-- <div class="spacer-20"></div> -->
+
+                        </div>
+                        <div class="social-icons mb-sm-30 text-center">
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                            <a href="https://wa.me/819030528856" target="_blank" rel="noopener"><i
+                                    class="fa-brands fa-whatsapp"></i></a>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </section>
-
-        <!-- CTA Banner -->
-        <section class="bg-color text-light pt-50 pb-50">
-            <div class="container">
-                <div class="row g-4">
-                    <div class="col-md-9"><h3 class="mb-0 fs-32 split" data-i18n="article.import.ctaHeading"></h3></div>
-                    <div class="col-lg-3 text-lg-end"><a class="btn-main fx-slide btn-line" href="../contact.html" data-i18n="article.ctaButton"></a></div>
+            <div class="subfooter">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            &copy; 2025 Biwako International Trading LTD
+                        </div>
+                    </div>
                 </div>
             </div>
-        </section>
+        </footer>
     </div>
 
-    <!-- footer -->
-    <footer class="text-light section-dark">
-        <div class="container">
-            <div class="row g-4 justify-content-between">
-                <div class="col-md-6">
-                    <img src="../images/logo.png" alt="Biwako" style="height:70px;" class="mb-3">
-                    <div class="widget">
-                        <h5>Компания</h5>
-                        <ul>
-                            <li><a href="../index.html">Главная</a></li>
-                            <li><a href="../index.html#services">Услуги</a></li>
-                            <li><a href="../company-information.html">О компании</a></li>
-                            <li><a href="../gallery.html">Галерея</a></li>
-                            <li><a href="../blog.html">Блог</a></li>
-                            <li><a href="../contact.html">Контакты</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <h2>Связаться</h2>
-                    <div class="widget">
-                        <div class="op-5 fs-15">Эл. почта</div>
-                        <h3><a href="mailto:rashidjap@yahoo.com" style="color:inherit;">rashidjap@yahoo.com</a></h3>
-                        <div class="spacer-20"></div>
-                        <div class="op-5 fs-15">Телефон</div>
-                        <h3><a href="tel:+819030528856" style="color:inherit;">+81-90-3052-8856</a></h3>
-                        <div class="spacer-20"></div>
-                        <div class="op-5 fs-15">Адрес</div>
-                        <h3>933-0253 Toyama-ken, Imizu City, Nakano, Shichimi, 198-2, JAPAN</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="subfooter">
-            <div class="container"><div class="row"><div class="col-md-12 text-center">&copy; 2025 Biwako International Trading LTD</div></div></div>
-        </div>
-    </footer>
-</div>
-
-<!-- WhatsApp / Telegram floating buttons -->
-<div style="position:fixed;bottom:74px;right:24px;z-index:9999;display:flex;flex-direction:column;gap:12px;">
-    <a href="https://wa.me/819030528856?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D1%8C%20%D0%B7%D0%B0%D0%BF%D1%87%D0%B0%D1%81%D1%82%D0%B8%20%D0%B8%D0%B7%20%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D0%B8" target="_blank" rel="noopener" title="Написать в WhatsApp" style="background:#25D366;color:#fff;width:56px;height:56px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:28px;box-shadow:0 4px 12px rgba(0,0,0,0.25);text-decoration:none;">
-        <i class="fa-brands fa-whatsapp"></i>
-    </a>
-    <!-- <a href="https://t.me/biwako_parts" target="_blank" rel="noopener" title="Написать в Telegram" style="background:#229ED9;color:#fff;width:56px;height:56px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:26px;box-shadow:0 4px 12px rgba(0,0,0,0.25);text-decoration:none;">
+    <!-- WhatsApp / Telegram floating buttons -->
+    <div style="position:fixed;bottom:74px;right:24px;z-index:9999;display:flex;flex-direction:column;gap:12px;">
+        <a href="https://wa.me/819030528856?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D1%8C%20%D0%B7%D0%B0%D0%BF%D1%87%D0%B0%D1%81%D1%82%D0%B8%20%D0%B8%D0%B7%20%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D0%B8"
+            target="_blank" rel="noopener" title="Написать в WhatsApp"
+            style="background:#25D366;color:#fff;width:56px;height:56px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:28px;box-shadow:0 4px 12px rgba(0,0,0,0.25);text-decoration:none;">
+            <i class="fa-brands fa-whatsapp"></i>
+        </a>
+        <!-- <a href="https://t.me/biwako_parts" target="_blank" rel="noopener" title="Написать в Telegram" style="background:#229ED9;color:#fff;width:56px;height:56px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:26px;box-shadow:0 4px 12px rgba(0,0,0,0.25);text-decoration:none;">
         <i class="fa-brands fa-telegram"></i>
     </a> -->
-</div>
+    </div>
 
-<script src="../js/plugins.js"></script>
-<script src="../js/i18n.js"></script>
-<script src="../js/designesia.js"></script>
+    <script src="../js/plugins.js"></script>
+    <script src="../js/i18n.js"></script>
+    <script src="../js/designesia.js"></script>
+    <script>
+        function resetHeight() {
+            document.getElementById('wrapper').style.height = 'auto';
+            document.getElementById('wrapper').style.minHeight = 'auto';
+            document.body.style.height = 'auto';
+            document.documentElement.style.height = 'auto';
+            requestAnimationFrame(function () { requestAnimationFrame(function () { window.dispatchEvent(new Event('resize')); }); });
+        }
+        document.addEventListener('i18nReady', resetHeight);
+        window.addEventListener('pageshow', resetHeight);
+    </script>
 </body>
+
 </html>
