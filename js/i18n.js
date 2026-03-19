@@ -56,7 +56,9 @@
   }
 
   async function loadMessages(lang) {
-    const path = `data/i18n/${lang}.json`;
+    const depth = window.location.pathname.split('/').filter(Boolean).length;
+    const prefix = depth > 1 ? '../'.repeat(depth - 1) : '';
+    const path = `${prefix}data/i18n/${lang}.json`;
     try {
       const res = await fetch(path, { cache: 'no-store' });
       if (!res.ok) throw new Error(`Failed to load ${path}`);
