@@ -12,15 +12,17 @@
     <meta name="robots" content="index, follow">
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript">
-        (function(m,e,t,r,i,k,a){
-            m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-            m[i].l=1*new Date();
-            for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
-            k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
-        })(window, document,'script','https://mc.yandex.ru/metrika/tag.js?id=108156607', 'ym');
-        ym(108156607, 'init', {ssr:true, webvisor:true, clickmap:true, ecommerce:"dataLayer", referrer: document.referrer, url: location.href, accurateTrackBounce:true, trackLinks:true});
+        (function (m, e, t, r, i, k, a) {
+            m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
+            m[i].l = 1 * new Date();
+            for (var j = 0; j < document.scripts.length; j++) { if (document.scripts[j].src === r) { return; } }
+            k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+        })(window, document, 'script', 'https://mc.yandex.ru/metrika/tag.js?id=108156607', 'ym');
+        ym(108156607, 'init', { ssr: true, webvisor: true, clickmap: true, ecommerce: "dataLayer", referrer: document.referrer, url: location.href, accurateTrackBounce: true, trackLinks: true });
     </script>
-    <noscript><div><img src="https://mc.yandex.ru/watch/108156607" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <noscript>
+        <div><img src="https://mc.yandex.ru/watch/108156607" style="position:absolute; left:-9999px;" alt="" /></div>
+    </noscript>
     <!-- /Yandex.Metrika counter -->
     <!-- /Yandex.Metrika counter -->
     <link rel="canonical" href="https://biwako-parts.jp/gallery.html">
@@ -609,7 +611,7 @@
                         </div>
                         <div class="spacer-single"></div>
                         <div class="row g-4">
-                            <!-- <div class="col-md-6">
+                            <!--  <div class="col-md-6">
                                 <div class="widget">
                                     <h5>Services</h5>
                                     <ul>
@@ -627,7 +629,7 @@
                                 <div class="widget">
                                     <h5 data-i18n="footer.company"></h5>
                                     <ul>
-                                        <li><a href="index.html" data-i18n="nav.home"></a></li>
+                                        <li><a href="index.html" data-i18n="breadcrumb.home"></a></li>
                                         <li><a href="index.html#services" data-i18n="nav.services"></a></li>
                                         <li><a href="index.html#business-flow" data-i18n="nav.businessFlow"></a></li>
                                         <li><a href="company-information.html" data-i18n="nav.companyInformation"></a>
@@ -641,13 +643,7 @@
                         </div>
 
 
-                        <div class="social-icons mb-sm-30 text-center">
-                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                            <a href="#"><i class="fa-brands fa-youtube"></i></a>
-                            <a href="https://wa.me/819030528856" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i></a>
-                        </div>
+
                     </div>
 
                     <div class="col-md-6">
@@ -658,25 +654,35 @@
 
                         <div class="widget">
                             <div class="op-5 fs-15" data-i18n="footer.email"></div>
-                            <h3><a href="mailto:rashidjap@yahoo.com" style="color:inherit;">rashidjap@yahoo.com</a></h3>
+                            <h5 class="mb-0"><a href="mailto:rashidjap@yahoo.com"
+                                    style="color:inherit;">rashidjap@yahoo.com</a></h5>
 
-                            <div class="spacer-20"></div>
+                            <!-- <div class="spacer-20"></div> -->
 
                             <div class="op-5 fs-15" data-i18n="footer.phone"></div>
-                            <h3><a href="tel:+819030528856" style="color:inherit;">+81-90-3052-8856</a></h3>
+                            <h5 class="mb-0"><a href="tel:+819030528856" style="color:inherit;">+81-90-3052-8856</a>
+                            </h5>
 
-                            <div class="spacer-20"></div>
+                            <!-- <div class="spacer-20"></div> -->
 
                             <div class="op-5 fs-15" data-i18n="footer.location"></div>
-                            <h3>933-0253 Toyama-ken, Imizu City, Nakano, Shichimi, 198-2, JAPAN</h3>
+                            <h5 class="mb-0">933-0253 Toyama-ken, Imizu City, Nakano, Shichimi, 198-2, JAPAN</h5>
 
-                            <div class="spacer-20"></div>
+                            <!-- <div class="spacer-20"></div> -->
 
                             <div class="op-5 fs-15" data-i18n="footer.hours"></div>
-                            <h3>Monday-Saturday 9:00 AM - 6:00 PM JST</h3>
+                            <h5 class="mb-0">Monday-Saturday 9:00 AM - 6:00 PM JST</h5>
 
-                            <div class="spacer-20"></div>
+                            <!-- <div class="spacer-20"></div> -->
 
+                        </div>
+                        <div class="social-icons mb-sm-30 text-center">
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                            <a href="https://wa.me/819030528856" target="_blank" rel="noopener"><i
+                                    class="fa-brands fa-whatsapp"></i></a>
                         </div>
                     </div>
                 </div>
