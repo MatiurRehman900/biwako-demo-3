@@ -128,26 +128,33 @@
           <span class="lang-picker-label">${label}</span>
           <span class="lang-picker-arrow">&#9660;</span>
         </button>
-        <ul class="lang-picker-menu" role="listbox">
-          ${SUPPORTED_LANGS.map(l => `
-            <li class="lang-picker-item${l === lang ? ' active' : ''}" data-lang="${l}" role="option">
-              <span class="flag-icon flag-icon-${LANG_META[l].flag}"></span>
-              <span>${LANG_META[l].label}</span>
-            </li>`).join('')}
-        </ul>
       </div>`;
 
+    const menu = document.createElement('ul');
+    menu.className = 'lang-picker-menu';
+    menu.setAttribute('role', 'listbox');
+    menu.innerHTML = SUPPORTED_LANGS.map(l => `
+      <li class="lang-picker-item${l === lang ? ' active' : ''}" data-lang="${l}" role="option">
+        <span class="flag-icon flag-icon-${LANG_META[l].flag}"></span>
+        <span>${LANG_META[l].label}</span>
+      </li>`).join('');
+    document.body.appendChild(menu);
+
     const btn = container.querySelector('.lang-picker-btn');
-    const menu = container.querySelector('.lang-picker-menu');
 
     btn.addEventListener('click', (e) => {
       e.stopPropagation();
       const open = btn.getAttribute('aria-expanded') === 'true';
+      if (!open) {
+        const rect = btn.getBoundingClientRect();
+        menu.style.top = (rect.bottom + 4) + 'px';
+        menu.style.right = (window.innerWidth - rect.right) + 'px';
+      }
       btn.setAttribute('aria-expanded', String(!open));
       menu.classList.toggle('open', !open);
     });
 
-    container.querySelectorAll('.lang-picker-item').forEach(item => {
+    menu.querySelectorAll('.lang-picker-item').forEach(item => {
       item.addEventListener('click', () => switchLang(item.dataset.lang));
     });
 
