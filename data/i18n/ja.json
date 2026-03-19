@@ -11,6 +11,9 @@
   "lang.japanese": "日本語",
 
   "hero.title": "日本からの信頼の輸出パートナー",
+  "hero.title.before": "信頼の",
+  "hero.title.highlight": "輸出",
+  "hero.title.after": "日本からのパートナー",
   "hero.subtitle": "私たちは車両を分解し、高品質な中古部品を取り出します。各部品は丁寧に検査・分類され、安全なコンテナに梱包して世界中へ出荷します。",
   "hero.cta": "部品をリクエスト",
   "hero.feature.quality": "品質検査",
