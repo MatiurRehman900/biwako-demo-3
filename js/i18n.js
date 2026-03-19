@@ -9,7 +9,7 @@
 ;(function () {
   const STORAGE_KEY = 'site_lang';
   const DEFAULT_LANG = 'en';
-  const SUPPORTED_LANGS = ['en', 'ru', 'ja'];
+  const SUPPORTED_LANGS = ['en', 'ru'/*, 'ja'*/];
 
   function getSavedLang() {
     try {
@@ -105,7 +105,7 @@
   const LANG_META = {
     en: { flag: 'gb', label: 'English' },
     ru: { flag: 'ru', label: 'Русский' },
-    ja: { flag: 'jp', label: '日本語' },
+    // ja: { flag: 'jp', label: '日本語' },
   };
 
   function buildLangPicker(lang) {
