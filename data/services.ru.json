@@ -41,7 +41,13 @@
           "images/services/russia/Tire container-2.jpeg",
           "images/services/russia/alloy.png"
         ]
-      }
+      },
+      {
+        "desc": "Тяжелая промышленная и строительная техника - мы организуем перевозку тяжелой промышленной и строительной техники в соответствии с размером и количеством машин.",
+        "img": [
+          "images/services/heavy-machinery/crane.png"
+        ]
+       }
     ]
   },
   {
@@ -66,7 +72,13 @@
           "images/services/russia/Tire container-2.jpeg",
           "images/services/russia/alloy.png"
         ]
-      }
+      },
+      {
+        "desc": "Тяжелая промышленная и строительная техника - мы организуем перевозку тяжелой промышленной и строительной техники в соответствии с размером и количеством машин.",
+        "img": [
+          "images/services/heavy-machinery/crane.png"
+        ]
+       }
     ],
     "image": "images/services/UAE/Used Auto-Parts in Bulk by Container-1.jpeg"
   },
@@ -148,7 +160,13 @@
           "images/services/UAE/Used Auto-Parts in Bulk by Container-3.jpeg",
           "images/services/UAE/Used Auto-Parts in Bulk by Container-4.jpeg"
         ]
-      }
+      },
+      {
+        "desc": "Тяжелая промышленная и строительная техника - мы организуем перевозку тяжелой промышленной и строительной техники в соответствии с размером и количеством машин.",
+        "img": [
+          "images/services/heavy-machinery/crane.png"
+        ]
+       }
     ],
     "image": "images/services/africa/africa-1.jpeg"
   }

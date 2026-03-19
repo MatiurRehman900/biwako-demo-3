@@ -41,6 +41,12 @@
           "images/services/russia/Tire container-2.jpeg",
           "images/services/russia/alloy.png"
         ]
+      },
+      {
+        "desc": "Heavy industrial & construction Machineries - We arrange the shipping of heavy industrial & construction Machineries according to the size and quantity of machines.",
+        "img": [
+          "images/services/heavy-machinery/crane.png"
+        ]
       }
     ]
   },
@@ -65,6 +71,12 @@
           "images/services/russia/Tire container-1.jpeg",
           "images/services/russia/Tire container-2.jpeg",
           "images/services/russia/alloy.png"
+        ]
+      },
+      {
+        "desc": "Heavy industrial & construction Machineries - We arrange the shipping of heavy industrial & construction Machineries according to the size and quantity of machines.",
+        "img": [
+          "images/services/heavy-machinery/crane.png"
         ]
       }
     ],
@@ -147,6 +159,12 @@
           "images/services/UAE/Used Auto-Parts in Bulk by Container-2.jpeg",
           "images/services/UAE/Used Auto-Parts in Bulk by Container-3.jpeg",
           "images/services/UAE/Used Auto-Parts in Bulk by Container-4.jpeg"
+        ]
+      },
+      {
+        "desc": "Heavy industrial & construction Machineries - We arrange the shipping of heavy industrial & construction Machineries according to the size and quantity of machines.",
+        "img": [
+          "images/services/heavy-machinery/crane.png"
         ]
       }
     ],

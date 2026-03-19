@@ -169,16 +169,15 @@
                 <div class="sw-overlay op-7"></div>
             </section>
 
-            <section id="services-dynamic">
+            <section id="services-dynamic" style="padding: 60px 0;">
                 <div class="container">
                     <div class="row g-4 justify-content-center mb-4">
                         <div class="col-lg-8 text-center">
                             <div class="subtitle wow fadeInUp" data-i18n="services.whatWeOffer"></div>
-                            <!-- <h2 class="split" data-wow-delay=".2s">Complete Used Car Parts Export Solutions</h2> -->
                         </div>
                     </div>
 
-                    <div id="services-list" class="row g-4">
+                    <div id="services-list" class="row g-4" style="min-height: 300px;">
                         <!-- services loaded dynamically from /data/services.json -->
                     </div>
                 </div>
@@ -361,10 +360,10 @@
     <!-- Javascript Files
     ================================================== -->
     <script src="js/plugins.js"></script>
+    <script src="js/i18n.js"></script>
     <script src="js/designesia.js"></script>
     <script src="js/swiper.js"></script>
     <script src="js/custom-swiper-1.js"></script>
-    <script src="js/i18n.js"></script>
 
     <script>
         function loadServices() {
@@ -402,6 +401,12 @@
                                                 </div>
                                             `).join('')}
                                         </div>
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#${carouselId}" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" style="background-image:none;"></span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#${carouselId}" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" style="background-image:none;"></span>
+                                        </button>
                                     </div>
                                 `;
                             } else {
@@ -425,6 +430,28 @@
                         });
                         // html += `<div class="text-center mt-5 wow fadeInUp" data-wow-delay="2s"><a class="btn-main fx-slide" href="index.html#services"><span>Back to Services</span></a></div>`;
                         container.innerHTML = html;
+                        // Initialize carousels when they scroll into view (fixes off-screen carousels not playing)
+                        const observer = new IntersectionObserver(function(entries) {
+                            entries.forEach(function(entry) {
+                                if (entry.isIntersecting) {
+                                    const c = new bootstrap.Carousel(entry.target, { interval: 1000, ride: 'carousel' });
+                                    c.cycle();
+                                    observer.unobserve(entry.target);
+                                }
+                            });
+                        }, { threshold: 0.1 });
+                        container.querySelectorAll('.carousel').forEach(function(el) { observer.observe(el); });
+                        // Force full page reflow so footer is reachable and scroll is not capped.
+                        // The theme calculates page height at window.load, before async content exists.
+                        // We reset any inline height locks and trigger resize after the browser paints.
+                        document.getElementById('wrapper').style.height = 'auto';
+                        document.getElementById('wrapper').style.minHeight = 'auto';
+                        document.body.style.height = 'auto';
+                        requestAnimationFrame(function() {
+                            requestAnimationFrame(function() {
+                                window.dispatchEvent(new Event('resize'));
+                            });
+                        });
                         return;
                     }
 
