@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <url>
+    <loc>https://www.biwako-autoparts.com/index.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.biwako-autoparts.com/index.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.biwako-autoparts.com/index.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.biwako-autoparts.com/index.html"/>
+  </url>
+
+  <url>
+    <loc>https://www.biwako-autoparts.com/services.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.biwako-autoparts.com/services.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.biwako-autoparts.com/services.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.biwako-autoparts.com/services.html"/>
+  </url>
+
+  <url>
+    <loc>https://www.biwako-autoparts.com/company-information.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.biwako-autoparts.com/company-information.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.biwako-autoparts.com/company-information.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.biwako-autoparts.com/company-information.html"/>
+  </url>
+
+  <url>
+    <loc>https://www.biwako-autoparts.com/gallery.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.biwako-autoparts.com/gallery.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.biwako-autoparts.com/gallery.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.biwako-autoparts.com/gallery.html"/>
+  </url>
+
+  <url>
+    <loc>https://www.biwako-autoparts.com/contact.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.biwako-autoparts.com/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.biwako-autoparts.com/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.biwako-autoparts.com/contact.html"/>
+  </url>
+
+</urlset>
