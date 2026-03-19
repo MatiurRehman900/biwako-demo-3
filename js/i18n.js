@@ -96,6 +96,15 @@
         applyText(node, value);
       }
     });
+
+    const htmlNodes = document.querySelectorAll('[data-i18n-html]');
+    htmlNodes.forEach((node) => {
+      const key = node.getAttribute('data-i18n-html');
+      if (!key) return;
+      const value = translations[key];
+      if (typeof value === 'undefined') return;
+      node.innerHTML = value;
+    });
   }
 
   function setHtmlLang(lang) {
