@@ -12,15 +12,17 @@
     <meta name="robots" content="index, follow">
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript">
-        (function(m,e,t,r,i,k,a){
-            m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-            m[i].l=1*new Date();
-            for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
-            k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
-        })(window, document,'script','https://mc.yandex.ru/metrika/tag.js?id=108156607', 'ym');
-        ym(108156607, 'init', {ssr:true, webvisor:true, clickmap:true, ecommerce:"dataLayer", referrer: document.referrer, url: location.href, accurateTrackBounce:true, trackLinks:true});
+        (function (m, e, t, r, i, k, a) {
+            m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
+            m[i].l = 1 * new Date();
+            for (var j = 0; j < document.scripts.length; j++) { if (document.scripts[j].src === r) { return; } }
+            k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+        })(window, document, 'script', 'https://mc.yandex.ru/metrika/tag.js?id=108156607', 'ym');
+        ym(108156607, 'init', { ssr: true, webvisor: true, clickmap: true, ecommerce: "dataLayer", referrer: document.referrer, url: location.href, accurateTrackBounce: true, trackLinks: true });
     </script>
-    <noscript><div><img src="https://mc.yandex.ru/watch/108156607" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <noscript>
+        <div><img src="https://mc.yandex.ru/watch/108156607" style="position:absolute; left:-9999px;" alt="" /></div>
+    </noscript>
     <!-- /Yandex.Metrika counter -->
     <link rel="canonical" href="https://biwako-parts.jp/company-information.html">
     <link rel="alternate" hreflang="ru" href="https://biwako-parts.jp/company-information.html">
@@ -604,10 +606,11 @@
                     <div class="col-md-6">
                         <div class="d-flex align-items-center gap-2 mb-2">
                             <img src="images/logo.png" alt="" style="height: 70px;">
+                            <!-- <h3 class=" text-white mb-0" style="font-weight: 800;">Biwako</h3> -->
                         </div>
                         <div class="spacer-single"></div>
                         <div class="row g-4">
-                            <!-- <div class="col-md-6">
+                            <!--  <div class="col-md-6">
                                 <div class="widget">
                                     <h5>Services</h5>
                                     <ul>
@@ -625,7 +628,7 @@
                                 <div class="widget">
                                     <h5 data-i18n="footer.company"></h5>
                                     <ul>
-                                        <li><a href="index.html" data-i18n="nav.home"></a></li>
+                                        <li><a href="index.html" data-i18n="breadcrumb.home"></a></li>
                                         <li><a href="index.html#services" data-i18n="nav.services"></a></li>
                                         <li><a href="index.html#business-flow" data-i18n="nav.businessFlow"></a></li>
                                         <li><a href="company-information.html" data-i18n="nav.companyInformation"></a>
@@ -639,13 +642,7 @@
                         </div>
 
 
-                        <div class="social-icons mb-sm-30 text-center">
-                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                            <a href="#"><i class="fa-brands fa-youtube"></i></a>
-                            <a href="https://wa.me/819030528856" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i></a>
-                        </div>
+
                     </div>
 
                     <div class="col-md-6">
@@ -656,25 +653,35 @@
 
                         <div class="widget">
                             <div class="op-5 fs-15" data-i18n="footer.email"></div>
-                            <h3><a href="mailto:rashidjap@yahoo.com" style="color:inherit;">rashidjap@yahoo.com</a></h3>
+                            <h5 class="mb-0"><a href="mailto:rashidjap@yahoo.com"
+                                    style="color:inherit;">rashidjap@yahoo.com</a></h5>
 
-                            <div class="spacer-20"></div>
+                            <!-- <div class="spacer-20"></div> -->
 
                             <div class="op-5 fs-15" data-i18n="footer.phone"></div>
-                            <h3><a href="tel:+819030528856" style="color:inherit;">+81-90-3052-8856</a></h3>
+                            <h5 class="mb-0"><a href="tel:+819030528856" style="color:inherit;">+81-90-3052-8856</a>
+                            </h5>
 
-                            <div class="spacer-20"></div>
+                            <!-- <div class="spacer-20"></div> -->
 
                             <div class="op-5 fs-15" data-i18n="footer.location"></div>
-                            <h3>933-0253 Toyama-ken, Imizu City, Nakano, Shichimi, 198-2, JAPAN</h3>
+                            <h5 class="mb-0">933-0253 Toyama-ken, Imizu City, Nakano, Shichimi, 198-2, JAPAN</h5>
 
-                            <div class="spacer-20"></div>
+                            <!-- <div class="spacer-20"></div> -->
 
                             <div class="op-5 fs-15" data-i18n="footer.hours"></div>
-                            <h3>Monday-Saturday 9:00 AM - 6:00 PM JST</h3>
+                            <h5 class="mb-0">Monday-Saturday 9:00 AM - 6:00 PM JST</h5>
 
-                            <div class="spacer-20"></div>
+                            <!-- <div class="spacer-20"></div> -->
 
+                        </div>
+                        <div class="social-icons mb-sm-30 text-center">
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                            <a href="https://wa.me/819030528856" target="_blank" rel="noopener"><i
+                                    class="fa-brands fa-whatsapp"></i></a>
                         </div>
                     </div>
                 </div>
@@ -684,30 +691,11 @@
                     <div class="row">
                         <div class="col-md-12 text-center">
                             &copy; 2025 Biwako International Trading LTD
-
-            <div class="spacer-30-line"></div>
-
-            <h5 data-i18n="overlay.contact"></h5>
-            <div><i class="icofont-phone me-2 op-5"></i>+81-90-3052-8856</div>
-            <div><i class="icofont-location-pin me-2 op-5"></i>Shichiminakano 198-2, Imizu City, Toyama-ken, 933-0253,
-                JAPAN</div>
-            <div><i class="icofont-envelope me-2 op-5"></i>rashidjap@yahoo.com</div>
-            <div><i class="icofont-clock me-2 op-5"></i>Monday-Saturday 9:00 AM - 6:00 PM JST</div>
-
-            <div class="spacer-30-line"></div>
-
-            <h5 data-i18n="overlay.about"></h5>
-            <p>We are a trusted used car parts exporter from Japan. With 22+ years of experience, we dismantle vehicles,
-                source quality parts, and ship containers worldwide with complete documentation and tracking.</p>
-
-            <div class="social-icons">
-                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                <a href="#"><i class="fa-brands fa-youtube"></i></a>
-                <a href="https://wa.me/819030528856" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
+        </footer>
     </div>
     <!-- overlay content end -->
 
@@ -721,14 +709,16 @@
 
     <!-- WhatsApp / Telegram floating buttons -->
     <div style="position:fixed;bottom:74px;right:24px;z-index:9999;display:flex;flex-direction:column;gap:12px;">
-        <a href="https://wa.me/819030528856?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D1%8C%20%D0%B7%D0%B0%D0%BF%D1%87%D0%B0%D1%81%D1%82%D0%B8%20%D0%B8%D0%B7%20%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D0%B8" target="_blank" rel="noopener" title="Написать в WhatsApp" style="background:#25D366;color:#fff;width:56px;height:56px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:28px;box-shadow:0 4px 12px rgba(0,0,0,0.25);text-decoration:none;">
+        <a href="https://wa.me/819030528856?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D1%8C%20%D0%B7%D0%B0%D0%BF%D1%87%D0%B0%D1%81%D1%82%D0%B8%20%D0%B8%D0%B7%20%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D0%B8"
+            target="_blank" rel="noopener" title="Написать в WhatsApp"
+            style="background:#25D366;color:#fff;width:56px;height:56px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:28px;box-shadow:0 4px 12px rgba(0,0,0,0.25);text-decoration:none;">
             <i class="fa-brands fa-whatsapp"></i>
         </a>
-       <!-- <a href="https://t.me/biwako_parts" target="_blank" rel="noopener" title="Написать в Telegram" style="background:#229ED9;color:#fff;width:56px;height:56px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:26px;box-shadow:0 4px 12px rgba(0,0,0,0.25);text-decoration:none;">
+        <!-- <a href="https://t.me/biwako_parts" target="_blank" rel="noopener" title="Написать в Telegram" style="background:#229ED9;color:#fff;width:56px;height:56px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:26px;box-shadow:0 4px 12px rgba(0,0,0,0.25);text-decoration:none;">
             <i class="fa-brands fa-telegram"></i>
         </a> -->
     </div>
 
 </body>
 
-</html> 
+</html>
