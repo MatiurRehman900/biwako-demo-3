@@ -9,7 +9,7 @@
 ;(function () {
   const STORAGE_KEY = 'site_lang';
   const DEFAULT_LANG = 'en';
-  const SUPPORTED_LANGS = ['en', 'ru'/*, 'ja'*/];
+  const SUPPORTED_LANGS = ['en', 'ru', 'mn'/*, 'ja'*/];
 
   function getSavedLang() {
     try {
@@ -116,6 +116,7 @@
   const LANG_META = {
     en: { flag: 'gb', label: 'English' },
     ru: { flag: 'ru', label: 'Русский' },
+    mn: { flag: 'mn', label: 'Монгол' },
     // ja: { flag: 'jp', label: '日本語' },
   };
 

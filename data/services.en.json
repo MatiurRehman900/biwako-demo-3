@@ -86,10 +86,10 @@
     "id": "mongolia",
     "title": "Mongolia",
     "short": "Bulk used auto-parts and complete vehicle export.",
-    "description": "Bulk used auto-parts by container and complete vehicle export via RoRo or containerized shipment to Mongolia. We prepare and document shipments per customer requirements.",
+    "description": "Bulk used auto-parts by container and complete vehicle export by container shipment to Mongolia. We prepare and document shipments per customer requirements.",
     "bullets": [
       {
-        "desc": "Complete vehicle export via RoRo or containerized shipment - According to the shipping schedules and space availability we use RoRo export method from almost all major ports of Japan and for 3 ~6 cars together, Containerized shipment is also a cost affective method",
+        "desc": "Complete vehicle export by container shipment - For 3~6 cars together, containerized shipment is a cost effective method used for Mongolia exports",
         "img": [
           "images/services/Pakistan/prius-old.png",
           "images/services/Pakistan/prius-laoded.png"
@@ -98,15 +98,19 @@
       {
         "desc": "Bulk Used Auto-Parts by Container - Bulk Used Auto-Parts by Container method is used for highly in demand parts in Mongolia",
         "img": [
-           "images/services/mongolia/mongolia-parts-1.jpeg",
-            "images/services/mongolia/mongolia-parts-2.jpeg",
-             "images/services/mongolia/mongolia-parts-3.jpeg",
-              "images/services/mongolia/mongolia-parts-4.jpeg",
-               "images/services/mongolia/mongolia-parts-5.jpeg",
-                "images/services/mongolia/mongolia-parts-6.jpeg",
-                 "images/services/mongolia/mongolia-parts-7.jpeg"
+           
+          "images/services/russia/Disassembled complete cars loading in Container-5.jpeg",
+          "images/services/russia/Disassembled complete cars loading in Container-6.jpeg"            
         ]
-      } 
+      },
+      {
+        "desc": "Tire container with or without alloy wheel - New and used tires of different size in one container",
+        "img": [
+          "images/services/russia/Tire container-1.jpeg",
+          "images/services/russia/Tire container-2.jpeg",
+          "images/services/russia/alloy.png"
+        ]
+      }
     ],
     "image": "images/services/Pakistan/Bulk Used Auto-Parts by Container-1.jpeg"
   },

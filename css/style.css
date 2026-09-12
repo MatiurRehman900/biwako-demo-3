@@ -13643,3 +13643,12 @@ img {
 .lang-picker-item:hover { background: #f5f5f5; }
 .lang-picker-item.active { font-weight: 600; }
 .lang-picker-item .flag-icon { width: 20px; height: 15px; border-radius: 2px; }
+
+/* ── Mongolian language — compact navbar ── */
+html[lang="mn"] #mainmenu > li {
+  margin-right: 14px;
+}
+html[lang="mn"] #mainmenu li a {
+  font-size: 14px;
+  letter-spacing: 0;
+}
