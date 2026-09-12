@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="mn">
+<head>
+<meta charset="UTF-8">
+<title>Biwako International — Памфлет (Монгол)</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&display=swap');
+*{margin:0;padding:0;box-sizing:border-box;}
+
+:root{
+  --or:#F85C00;
+  --dk:#1a1a1a;
+  --wh:#ffffff;
+  --bg:#f4f4f4;
+  --lt:#fafafa;
+  --tx:#222222;
+  --mu:#888888;
+  --bd:#e8e8e8;
+}
+
+body{
+  font-family:'Inter',sans-serif;
+  background:#c5c5c5;
+  display:flex;flex-direction:column;
+  align-items:center;gap:24px;
+  padding:30px 20px 60px;
+}
+
+.hint{
+  background:#fff;
+  border:2px solid var(--or);
+  color:#333;
+  padding:12px 28px;
+  border-radius:10px;
+  font-size:12px;
+  max-width:800px;width:100%;
+  text-align:center;line-height:1.8;
+}
+.hint b{color:var(--or);}
+.hint .sub{font-size:10px;color:#999;margin-top:3px;}
+
+.lbl{
+  font-size:10px;color:#555;font-weight:700;
+  letter-spacing:1px;text-transform:uppercase;
+  align-self:flex-start;
+  margin-left:calc((100% - 297mm)/2);
+  margin-bottom:-10px;
+}
+
+/* ── Sheet wrapper ── */
+.sheet{
+  width:297mm;height:210mm;
+  display:grid;grid-template-columns:1fr 1fr;
+  box-shadow:0 12px 48px rgba(0,0,0,.28);
+  position:relative;flex-shrink:0;
+  border-radius:4px;overflow:hidden;
+}.sheet::after{
+  content:'▼ FOLD';position:absolute;
+  top:0;left:50%;transform:translateX(-50%);
+  font-size:8px;letter-spacing:2px;color:rgba(0,0,0,.2);
+  padding:2px 8px;background:rgba(255,255,255,.7);
+  border:1px dashed rgba(0,0,0,.15);border-top:none;
+  pointer-events:none;z-index:999;
+}
+
+/* ═══════════════════════════════════════
+   SHEET 1  —  OUTSIDE
+   LEFT = BACK COVER | RIGHT = FRONT COVER
+═══════════════════════════════════════ */
+
+/* ── BACK COVER (left) — light ── */
+.back-cover{
+  /* background:var(--lt); */
+  position:relative;overflow:hidden;
+  display:flex;flex-direction:column;
+}
+
+/* Mongolia image background with opacity */
+.back-cover .bg-mongolia{
+  position:absolute;inset:0;
+  background:url('images/services/mongolia/mongolia-parts-2.jpeg') center/cover no-repeat;
+  opacity:.10;
+  z-index:0;
+}
+
+/* decorative orange circle top-right */
+.back-cover .decor-tr{
+  position:absolute;top:-50px;right:-50px;
+  width:180px;height:180px;
+  background:var(--or);border-radius:50%;opacity:.15;
+}
+/* small circle bottom-left */
+.back-cover .decor-bl{
+  position:absolute;bottom:-40px;left:-40px;
+  width:140px;height:140px;
+  background:var(--or);border-radius:50%;opacity:.10;
+}
+
+.bc-wrap{
+  position:relative;z-index:2;
+  flex:1;padding:30px 30px 18px 30px;
+  display:flex;flex-direction:column;justify-content:space-between;
+}
+
+/* logo area */
+.bc-logo{
+  display:flex;align-items:center;gap:10px;
+  margin-bottom:20px;
+}
+.bc-logo img{
+  height:44px;
+  background:var(--or);
+  padding:6px 12px;
+  border-radius:8px;
+}
+
+.bc-headline{
+  font-size:21px;font-weight:900;
+  color:var(--dk);line-height:1.2;
+  margin-bottom:8px;
+}
+.bc-headline span{color:var(--or);}
+
+.bc-sub{
+  font-size:10px;color:var(--mu);
+  line-height:1.75;max-width:220px;
+  margin-bottom:24px;
+}
+
+/* contact rows */
+.bc-contacts{display:flex;flex-direction:column;gap:12px;}
+
+.bc-row{
+  display:flex;align-items:center;gap:11px;
+  padding:9px 12px;
+  background:#fff;
+  border-radius:9px;
+  border:1px solid var(--bd);
+  border-left:3px solid var(--or);
+}
+.bc-row .ico{
+  width:30px;height:30px;
+  background:rgba(248,92,0,.1);
+  border-radius:7px;
+  display:flex;align-items:center;justify-content:center;
+  font-size:14px;flex-shrink:0;
+}
+.bc-row label{
+  display:block;font-size:8px;
+  color:var(--mu);text-transform:uppercase;
+  letter-spacing:.8px;margin-bottom:1px;
+}
+.bc-row strong{font-size:10.5px;color:var(--dk);font-weight:700;}
+
+/* orange footer strip */
+.bc-foot{
+  background:var(--or);
+  padding:10px 30px;
+  display:flex;justify-content:space-between;align-items:center;
+}
+.bc-foot span{color:#fff;font-size:10.5px;font-weight:700;}
+.bc-foot .sm{font-size:9px;font-weight:400;color:rgba(255,255,255,.75);}
+
+
+/* ── FRONT COVER (right) — light with orange accents ── */
+.front-cover{
+  /* background:var(--wh); */
+  position:relative;overflow:hidden;
+  display:flex;flex-direction:column;justify-content:space-between;
+}
+
+/* faint photo bg */
+.front-cover .fc-bg{
+  position:absolute;inset:0;
+  background:url('images/slider/a2.webp') center/cover no-repeat;
+  /* opacity:.07; */
+}
+
+/* big orange circle top-right */
+.front-cover .fc-circle-tr{
+  position:absolute;top:-60px;right:-60px;
+  width:240px;height:240px;
+  background:var(--or);border-radius:50%;opacity:.92;
+}
+/* white inside circle */
+.front-cover .fc-circle-wh{
+  position:absolute;top:14px;right:14px;
+  width:74px;height:74px;
+  background:#fff;border-radius:50%;opacity:.28;
+}
+/* orange circle bottom-left */
+.front-cover .fc-circle-bl{
+  position:absolute;bottom:-75px;left:-75px;
+  width:250px;height:250px;
+  background:var(--or);border-radius:50%;opacity:.88;
+}
+/* light grey bottom-right */
+.front-cover .fc-circle-gr{
+  position:absolute;bottom:-45px;right:-45px;
+  width:170px;height:170px;
+  background:#efefef;border-radius:50%;
+}
+
+.fc-inner{
+  position:relative;z-index:3;
+  padding:24px 26px 0 26px;
+  flex:1;display:flex;flex-direction:column;
+}
+
+.fc-topbar{
+  display:flex;justify-content:space-between;
+  align-items:center;margin-bottom:22px;
+}
+.fc-topbar img{
+  height:46px;
+  background:var(--or);
+  padding:5px 9px;
+  border-radius:8px;
+  box-shadow:0 1px 8px rgba(0,0,0,.08);
+}
+.fc-topbar .since{
+  font-size:9px;color:var(--mu);
+  font-weight:700;letter-spacing:1px;text-transform:uppercase;
+}
+
+.tag-pill{
+  display:inline-block;
+  background:var(--or);color:#fff;
+  font-size:8.5px;font-weight:700;
+  letter-spacing:1.5px;text-transform:uppercase;
+  padding:3px 11px;border-radius:20px;
+  margin-bottom:12px;
+}
+
+.fc-h1{
+  font-size:30px;font-weight:900;
+  color:var(--dk);line-height:1.1;
+  text-transform:uppercase;margin-bottom:10px;
+}
+.fc-h1 span{color:var(--or);}
+
+.fc-div{width:44px;height:3px;background:var(--or);margin-bottom:11px;}
+
+.fc-p{
+  font-size:14px;color:#fff;
+  line-height:1.8;max-width:230px;
+}
+
+/* badges */
+.fc-trust{
+  position:relative;z-index:3;
+  display:grid;grid-template-columns:repeat(4,1fr);
+  gap:5px;padding:12px 26px;
+}
+.tb{
+  background:rgba(255,255,255,.88);
+  border-top:2px solid var(--or);
+  border-radius:8px;padding:7px 4px;
+  text-align:center;
+  box-shadow:0 1px 6px rgba(0,0,0,.06);
+}
+.tb-n{font-size:14px;font-weight:900;color:var(--or);line-height:1;}
+.tb-l{font-size:7px;color:#555;margin-top:2px;line-height:1.3;}
+
+/* front footer */
+.fc-foot{
+  position:relative;z-index:3;
+  background:var(--dk);
+  padding:9px 26px;
+  display:flex;justify-content:space-between;align-items:center;
+}
+.fc-foot .web{color:var(--or);font-size:11px;font-weight:700;}
+.fc-foot .tag{color:rgba(255,255,255,.4);font-size:8.5px;}
+
+
+/* ═══════════════════════════════════════
+   SHEET 2  —  INSIDE
+   LEFT = Services | RIGHT = Process + Why
+═══════════════════════════════════════ */
+
+/* ── INSIDE LEFT — services flex layout ── */
+.inside-left{
+  background:var(--wh);
+  position:relative;overflow:hidden;
+  display:flex;flex-direction:column;
+}
+
+.inside-left .il-head{
+  padding:18px 24px 10px 24px;
+  flex-shrink:0;
+}
+.inside-left .il-head h2{
+  font-size:16px;font-weight:800;
+  color:var(--dk);margin-top:5px;line-height:1.2;
+}
+.inside-left .il-head h2 span{color:var(--or);}
+
+/* Flex column — each row takes equal space */
+.svc-grid-2col{
+  flex:1;
+  display:flex;
+  flex-direction:column;
+  gap:0;
+  padding:0 24px 8px 24px;
+  overflow:hidden;
+  min-height:0;
+}
+
+/* each service row = image + text side by side */
+.svc-row-wrap{
+  display:flex;
+  flex:1;
+  gap:0;
+  min-height:0;
+  overflow:hidden;
+}
+
+/* alternate row: text first then image */
+.svc-row-wrap.alt{ flex-direction:row-reverse; }
+
+/* thin divider between rows */
+.svc-divider{
+  height:1px;
+  background:var(--bd);
+  flex-shrink:0;
+  margin:0 4px;
+}
+.sb-img{
+  position:relative;
+  overflow:hidden;
+  border-radius:8px;
+  margin:4px;
+  flex:0 0 42%;
+  min-height:0;
+}
+.sb-img img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  display:block;
+  border-radius:8px;
+  position:absolute;
+  inset:0;
+}
+/* orange overlay badge */
+.sb-img .img-num{
+  position:absolute;top:7px;left:7px;
+  background:var(--or);color:#fff;
+  font-size:9px;font-weight:800;
+  width:20px;height:20px;border-radius:50%;
+  display:flex;align-items:center;justify-content:center;
+  z-index:2;
+}
+
+/* text cell */
+.sb-txt{
+  flex:1;
+  padding:6px 8px;
+  display:flex;flex-direction:column;justify-content:center;
+  min-height:0;
+  overflow:hidden;
+}
+.sb-txt h4{
+  font-size:16.5px;font-weight:800;
+  color:var(--dk);margin-bottom:3px;
+  display:flex;align-items:center;gap:5px;
+  line-height:1.2;
+}
+.sb-txt h4 .ico{font-size:13px;flex-shrink:0;}
+.sb-txt p{
+  font-size:12.5px;color:var(--mu);
+  line-height:1.5;
+  overflow:hidden;
+  display:-webkit-box;
+  -webkit-line-clamp:3;
+  -webkit-box-orient:vertical;
+}
+
+/* divider line between rows */
+.svc-divider{
+  height:1px;background:var(--bd);
+  flex-shrink:0;
+  margin:0 4px;
+}
+
+.il-foot{
+  background:var(--or);
+  padding:9px 24px;
+  display:flex;justify-content:space-between;align-items:center;
+}
+.il-foot span{color:#fff;font-size:9.5px;font-weight:600;}
+
+
+/* ── INSIDE RIGHT — more services (same grid) ── */
+.inside-right{
+  background:var(--lt);
+  position:relative;overflow:hidden;
+  display:flex;flex-direction:column;
+}
+
+.inside-right .ir-c1{
+  position:absolute;top:-45px;right:-45px;
+  width:150px;height:150px;
+  background:var(--or);border-radius:50%;opacity:.07;
+}
+.inside-right .ir-c2{
+  position:absolute;bottom:-45px;left:-45px;
+  width:150px;height:150px;
+  background:var(--or);border-radius:50%;opacity:.06;
+}
+
+.inside-right .ir-head{
+  padding:22px 24px 10px 24px;
+}
+.inside-right .ir-head h2{
+  font-size:17px;font-weight:800;
+  color:var(--dk);margin-top:6px;line-height:1.2;
+}
+.inside-right .ir-head h2 span{color:var(--or);}
+
+.ir-foot{
+  background:var(--dk);
+  padding:9px 24px;
+  display:flex;justify-content:space-between;align-items:center;
+}
+.ir-foot span{color:#fff;font-size:10px;font-weight:600;}
+.ir-foot .sm{font-size:8.5px;color:rgba(255,255,255,.45);font-weight:400;}
+
+/* ── print ── */
+@media print{
+  body{background:none;padding:0;gap:0;}
+  .hint,.lbl{display:none;}
+  .sheet{box-shadow:none;}
+  .sheet::after{display:none;}
+  @page{size:A4 landscape;margin:0;}
+}
+</style>
+</head>
+<body>
+
+<div class="hint">
+  🖨️ <b>Хэвлэх заавар:</b> Ctrl+P → A4 <b>Landscape</b> → Margin: <b>None</b> → Background: ✅
+  <div class="sub">Sheet 1 хэвлэ → Хуудсыг эргүүл → Sheet 2 хэвлэ → Дунд шугамаар нугал ✅</div>
+</div>
+
+<!-- ══════════ SHEET 1 — OUTSIDE ══════════ -->
+<div class="lbl">📄 Sheet 1 — Outside (Front Cover + Back Cover)</div>
+<div class="sheet">
+
+  <!-- BACK COVER -->
+  <div class="back-cover">
+    <div class="bg-mongolia"></div>
+    <div class="decor-tr"></div>
+    <div class="decor-bl"></div>
+    <div class="bc-wrap">
+      <div>
+        <div class="bc-logo">
+          <img src="images/logo.png" alt="Biwako International Trading">
+        </div>
+        <div class="bc-headline">Бизнес хамтран<br>ажиллахад<br><span>баярлалаа!</span></div>
+        <p class="bc-sub">Японы хуучин авто сэлбэгийн хамгийн найдвартай B2B нийлүүлэгч — 22 жилийн туршид дэлхий даяар хүргэж байна.</p>
+      </div>
+      <div class="bc-contacts">
+        <div class="bc-row">
+          <div class="ico">📞</div>
+          <div><label>Утас / WhatsApp</label><strong>+81-90-3052-8856</strong></div>
+        </div>
+        <div class="bc-row">
+          <div class="ico">✉️</div>
+          <div><label>Имэйл</label><strong>biwako.autopart@cap.ocn.ne.jp</strong></div>
+        </div>
+        <div class="bc-row">
+          <div class="ico">📍</div>
+          <div><label>Байршил</label><strong>Имизу хот, Тояма муж, Япон</strong></div>
+        </div>
+        <div class="bc-row">
+          <div class="ico">🌐</div>
+          <div><label>Вэбсайт</label><strong>biwako-parts.jp</strong></div>
+        </div>
+      </div>
+    </div>
+    <div class="bc-foot">
+      <span>🌐 biwako-parts.jp</span>
+      <span class="sm">Тояма, Япон — 2003 оноос хойш</span>
+    </div>
+  </div>
+
+  <!-- FRONT COVER -->
+  <div class="front-cover">
+    <div class="fc-bg"></div>
+    <div class="fc-circle-tr"></div>
+    <div class="fc-circle-wh"></div>
+    <div class="fc-circle-bl"></div>
+    <div class="fc-circle-gr"></div>
+
+    <div class="fc-inner">
+      <div class="fc-topbar">
+        <img src="images/logo.png" alt="Biwako International Trading">
+        <span class="since">Since 2003</span>
+      </div>
+      <span class="tag-pill">Японы бөөний экспортлогч</span>
+      <div class="fc-h1">Таны<br><span>Экспортын</span><br>Найдвартай<br>Түнш</div>
+      <div class="fc-div"></div>
+      <p class="fc-p">Монгол болон дэлхий даяар Японы хуучин авто сэлбэг, хагас зүсмэл машин болон контейнер ачилтыг хүргэдэг найдвартай B2B нийлүүлэгч.</p>
+    </div>
+
+    <div class="fc-trust">
+      <div class="tb"><div class="tb-n">22+</div><div class="tb-l">Жилийн туршлага</div></div>
+      <div class="tb"><div class="tb-n">20+</div><div class="tb-l">Харилцагч орон</div></div>
+      <div class="tb"><div class="tb-n">2,500+</div><div class="tb-l">Контейнер</div></div>
+      <div class="tb"><div class="tb-n">3</div><div class="tb-l">Боомт 5 мин</div></div>
+    </div>
+
+    <div class="fc-foot">
+      <span class="web">🌐 biwako-parts.jp</span>
+      <span class="tag">Японы хамгийн найдвартай авто сэлбэгийн экспортлогч</span>
+    </div>
+  </div>
+
+</div><!-- /sheet 1 -->
+
+
+<!-- ══════════ SHEET 2 — INSIDE ══════════ -->
+<div class="lbl">📄 Sheet 2 — Inside (Print on back of Sheet 1)</div>
+<div class="sheet">
+
+  <!-- INSIDE LEFT — Services image+text grid -->
+  <div class="inside-left">
+
+    <div class="il-head">
+      <span class="tag-pill">Манай үйлчилгээнүүд</span>
+      <h2>Бид Монголд <span>юу хүргэдэг вэ?</span></h2>
+    </div>
+
+    <!-- service rows wrapped properly for flex column -->
+    <div class="svc-grid-2col">
+
+      <!-- Row 1: image LEFT, text RIGHT -->
+      <div class="svc-row-wrap">
+        <div class="sb-img">
+          <img src="images/services/mongolia/mongolia-parts-1.jpeg" alt="Бөөний авто сэлбэг">
+          <div class="img-num">1</div>
+        </div>
+        <div class="sb-txt">
+          <h4><span class="ico">🔧</span>Бөөний авто сэлбэг</h4>
+          <p>Land Cruiser, Prado, Hiace, Pajero, Patrol — хөдөлгүүр, хурдны хайрцаг, тулгуур, бие засварын самбар.</p>
+        </div>
+      </div>
+
+      <div class="svc-divider"></div>
+
+      <!-- Row 2: text LEFT, image RIGHT -->
+      <div class="svc-row-wrap alt">
+        <div class="sb-img">
+          <img src="images/misc/half-cut.jpeg" alt="Хагас зүсмэл машин">
+          <div class="img-num">2</div>
+        </div>
+        <div class="sb-txt">
+          <h4><span class="ico">✂️</span>Хагас зүсмэл (Half-cut)</h4>
+          <p>40 фут контейнерт 14–16 нэгж. Хөдөлгүүр, хурдны хайрцаг, утасны дамжуулагч бүгд хамт.</p>
+        </div>
+      </div>
+
+      <div class="svc-divider"></div>
+
+      <!-- Row 3: image LEFT, text RIGHT -->
+      <div class="svc-row-wrap">
+        <div class="sb-img">
+          <img src="images/bussniess-flow/container-loading.jpeg" alt="Контейнерт машин">
+          <div class="img-num">3</div>
+        </div>
+        <div class="sb-txt">
+          <h4><span class="ico">🚗</span>Контейнерт бүрэн машин</h4>
+          <p>3–6 машиныг нэг контейнерт ачиж Монголд хүргэнэ. Toyota, Nissan, Mitsubishi болон бусад.</p>
+        </div>
+      </div>
+
+      <div class="svc-divider"></div>
+
+      <!-- Row 4: text LEFT, image RIGHT -->
+      <div class="svc-row-wrap alt">
+        <div class="sb-img">
+          <img src="images/tyers-containers/1.JPG" alt="Дугуйн контейнер">
+          <div class="img-num">4</div>
+        </div>
+        <div class="sb-txt">
+          <h4><span class="ico">🛞</span>Дугуйн контейнер</h4>
+          <p>Шинэ болон хуучин Японы дугуй — хайлш дисктэй эсвэл хайлшгүй. 4WD хэмжээ бүр боломжтой.</p>
+        </div>
+      </div>
+
+    </div><!-- /svc-grid-2col -->
+
+    <div class="il-foot">
+      <span>📦 Хамгийн бага захиалга: 1 × 20 фут контейнер</span>
+      <span>Зөвхөн B2B бизнесүүд</span>
+    </div>
+  </div>
+
+  <!-- INSIDE RIGHT — 4 more services, same alternating pattern -->
+  <div class="inside-right">
+    <div class="ir-c1"></div>
+    <div class="ir-c2"></div>
+
+    <div class="ir-head">
+      <span class="tag-pill">Нэмэлт үйлчилгээнүүд</span>
+      <h2>Бусад <span>экспортын шийдлүүд</span></h2>
+    </div>
+
+    <div class="svc-grid-2col" style="padding:0 24px 10px 24px;">
+
+      <!-- Row 5: image LEFT, text RIGHT -->
+      <div class="svc-row-wrap">
+        <div class="sb-img">
+          <img src="images/misc/car-halfcut.jpeg" alt="Хамрын зүсмэл">
+          <div class="img-num">5</div>
+        </div>
+        <div class="sb-txt">
+          <h4><span class="ico">🔩</span>Хамрын зүсмэл (Nose-cut)</h4>
+          <p>Зөвхөн хөдөлгүүрийн тасалгаа — 40 фут контейнерт 18–20 нэгж. Хөдөлгүүрт чиглэсэн импортлогчдод тохиромжтой.</p>
+        </div>
+      </div>
+
+      <div class="svc-divider"></div>
+
+      <!-- Row 6: text LEFT, image RIGHT -->
+      <div class="svc-row-wrap alt">
+        <div class="sb-img">
+          <img src="images/misc/machinery.jpeg" alt="Хүнд техник">
+          <div class="img-num">6</div>
+        </div>
+        <div class="sb-txt">
+          <h4><span class="ico">🏗️</span>Хүнд техник</h4>
+          <p>Байгуулалтын болон үйлдвэрийн хүнд техник — кран, экскаватор, форклифт. Хэмжээ, тоогоор тохируулна.</p>
+        </div>
+      </div>
+
+      <div class="svc-divider"></div>
+
+      <!-- Row 7: image LEFT, text RIGHT -->
+      <div class="svc-row-wrap">
+        <div class="sb-img">
+          <img src="images/engine-container/1.jpeg" alt="Хөдөлгүүрийн контейнер">
+          <div class="img-num">7</div>
+        </div>
+        <div class="sb-txt">
+          <h4><span class="ico">⚙️</span>Хөдөлгүүрийн контейнер</h4>
+          <p>20/40 фут контейнерт зөвхөн хөдөлгүүр — 1HD, 1GR, 2KD, 4M41 болон бусад дизель хөдөлгүүрүүд.</p>
+        </div>
+      </div>
+
+      <div class="svc-divider"></div>
+
+      <!-- Row 8: text LEFT, image RIGHT -->
+      <div class="svc-row-wrap alt">
+        <div class="sb-img">
+          <img src="images/misc/dismentaling.jpeg" alt="CKD задралт">
+          <div class="img-num">8</div>
+        </div>
+        <div class="sb-txt">
+          <h4><span class="ico">📦</span>CKD — Бүрэн задралт</h4>
+          <p>Машиныг бүрэн задалж контейнерт ачина. Гааль татварыг бууруулах боломжтой.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="ir-foot">
+      <span>📞 +81-90-3052-8856 &nbsp;|&nbsp; 🌐 biwako-parts.jp</span>
+      <span class="sm">Имэйл: biwako.autopart@cap.ocn.ne.jp</span>
+    </div>
+
+  </div>
+
+</div><!-- /sheet 2 -->
+
+</body>
+</html>
